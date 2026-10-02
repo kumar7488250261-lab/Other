@@ -1,0 +1,6 @@
+{
+  "name": "Kharsia Lobby",
+  "description": "SECR Bilaspur Division Crew Contact Directory and Kharsia Running Room Management",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

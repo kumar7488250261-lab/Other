@@ -1,0 +1,83 @@
+name: Deploy Web Application to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'web/**'
+      - '.github/workflows/deploy-web.yml'
+  workflow_dispatch:
+
+# Permissions required for GitHub Pages deployment
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy Web Version
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: 'web/package-lock.json'
+
+      - name: Install dependencies
+        run: |
+          cd web
+          npm ci
+
+      - name: Build web application
+        run: |
+          cd web
+          npm run build
+
+      - name: Verify build outputs
+        run: |
+          if [ ! -f "web/dist/index.html" ]; then
+            echo "::error::Build failed, web/dist/index.html does not exist!"
+            exit 1
+          fi
+          echo "Build successful! Dist directory contents:"
+          ls -lh web/dist
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'web/dist'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Print deployment summary
+        if: always()
+        run: |
+          echo "### 🌐 Kharsia Lobby Web Portal Deployed!" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Status:** ✅ Successfully Built and Published" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Target Environment:** GitHub Pages (Free Static Hosting)" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **Live Web App URL:** [${{ steps.deployment.outputs.page_url }}](${{ steps.deployment.outputs.page_url }})" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "The web version is fully responsive and compatible with Android, iPhone/iPad, and desktop browsers." >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,112 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function getUserData() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data;
+    }
+
+    function isApproved() {
+      return isAuthenticated() && (
+        getUserData().status == 'APPROVED' || 
+        getUserData().role == 'ADMIN'
+      );
+    }
+
+    function isAdmin() {
+      return isAuthenticated() && (
+        getUserData().role == 'ADMIN' || 
+        request.auth.token.admin == true
+      );
+    }
+
+    function isSupervisor() {
+      return isApproved() && (getUserData().role in ['ADMIN', 'SUPERVISOR', 'ROSTER_UPDATER']);
+    }
+
+    // App Configuration (read-only for all, write for admin)
+    match /app_config/{configId} {
+      allow read: if true; // Public version check for app updates
+      allow write: if isAdmin();
+    }
+
+    // Users collection
+    match /users/{userId} {
+      // User can read their own profile; Admin can read all users
+      allow read: if isAuthenticated() && (request.auth.uid == userId || isAdmin());
+      
+      // User can create their initial registration profile as PENDING
+      allow create: if isAuthenticated() && 
+        request.auth.uid == userId && 
+        request.resource.data.role == 'STAFF' && 
+        request.resource.data.status == 'PENDING';
+        
+      // User can update basic non-sensitive fields; only Admin can approve or change role
+      allow update: if isAuthenticated() && (
+        isAdmin() || 
+        (
+          request.auth.uid == userId && 
+          request.resource.data.role == resource.data.role && 
+          request.resource.data.status == resource.data.status
+        )
+      );
+      
+      allow delete: if isAdmin();
+    }
+
+    // Duty & Long-Hours records
+    match /duty_records/{recordId} {
+      allow read: if isApproved() || isAdmin();
+      allow create: if isApproved();
+      allow update: if isApproved();
+      allow delete: if isAdmin();
+    }
+
+    // Shift Roster
+    match /roster/{rosterId} {
+      allow read: if isApproved() || isAdmin();
+      allow create, update: if isSupervisor() || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // Equipment Store Register
+    match /equipment_records/{recordId} {
+      allow read: if isApproved() || isAdmin();
+      allow create, update: if isApproved();
+      allow delete: if isAdmin();
+    }
+
+    // Jeep Movements
+    match /jeep_movements/{tripId} {
+      allow read: if isApproved() || isAdmin();
+      allow create, update: if isApproved();
+      allow delete: if isAdmin();
+    }
+
+    // Periodical Rest (PR)
+    match /pr_requests/{prId} {
+      allow read: if isApproved() || isAdmin();
+      allow create: if isApproved();
+      allow update: if isSupervisor() || isAdmin();
+      allow delete: if isAdmin();
+    }
+
+    // Notifications & Broadcasts
+    match /notifications/{notifId} {
+      allow read: if isAuthenticated();
+      allow write: if isAdmin() || isSupervisor();
+    }
+
+    // Audit logs (append-only)
+    match /audit_history/{logId} {
+      allow read: if isAdmin();
+      allow create: if isAuthenticated();
+      allow update, delete: if false; // immutable audit log
+    }
+  }
+}

@@ -1,0 +1,1132 @@
+{
+  "stations": [
+    {
+      "sNo": 1,
+      "code": "IB",
+      "name": "Ib",
+      "cugMobile": "9777575992",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 2,
+      "code": "BRJN",
+      "name": "Brajrajnagar",
+      "cugMobile": "9777575993",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 3,
+      "code": "KJKR",
+      "name": "Kankejra",
+      "cugMobile": "9777575994",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 4,
+      "code": "BPH",
+      "name": "Belpahar",
+      "cugMobile": "9777575995",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 5,
+      "code": "HGR",
+      "name": "Himgir",
+      "cugMobile": "9777575996",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 6,
+      "code": "BSMA",
+      "name": "Bisrampur / Basantpur (Halt)",
+      "cugMobile": "9777575997",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 7,
+      "code": "DAO",
+      "name": "Daghora",
+      "cugMobile": "9777575998",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 8,
+      "code": "JMG",
+      "name": "Jamga",
+      "cugMobile": "9752090642",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 9,
+      "code": "KRL",
+      "name": "Kotarlia",
+      "cugMobile": "9752090643",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 10,
+      "code": "RIG",
+      "name": "Raigarh",
+      "cugMobile": "9752090644",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 11,
+      "code": "KDTR",
+      "name": "Kirodimalnagar",
+      "cugMobile": "9752090646",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 12,
+      "code": "BEF",
+      "name": "Bhupdeopur",
+      "cugMobile": "9752090647",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 13,
+      "code": "ROB",
+      "name": "Robertson",
+      "cugMobile": "9752090648",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 14,
+      "code": "KHS",
+      "name": "Kharsia",
+      "cugMobile": "9752090650",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 15,
+      "code": "JDI",
+      "name": "Jharradih",
+      "cugMobile": "9852090651",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 16,
+      "code": "SKT",
+      "name": "Sakti",
+      "cugMobile": "9752090652",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 17,
+      "code": "BUA",
+      "name": "Baradwar",
+      "cugMobile": "9752090653",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 18,
+      "code": "SGRM",
+      "name": "Sankra",
+      "cugMobile": "9752090654",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 19,
+      "code": "CPH",
+      "name": "Champa Junction",
+      "cugMobile": "9752090655",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 20,
+      "code": "NIA",
+      "name": "Janjgir Naila",
+      "cugMobile": "9752090670",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 21,
+      "code": "AKT",
+      "name": "Akaltara",
+      "cugMobile": "9752090712",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 22,
+      "code": "LATIA",
+      "name": "Latia Cabin",
+      "cugMobile": "9752090739",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 23,
+      "code": "EX.AKT",
+      "name": "East Akaltara Cabin",
+      "cugMobile": "9752092443",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 24,
+      "code": "LIL.AKT",
+      "name": "Akaltara Loop Cabin",
+      "cugMobile": "9752092444",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 25,
+      "code": "JRMG",
+      "name": "Jairamnagar",
+      "cugMobile": "9752093740",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 26,
+      "code": "GTW",
+      "name": "Gatora",
+      "cugMobile": "9752093741",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 27,
+      "code": "BSP",
+      "name": "Bilaspur Junction",
+      "cugMobile": "9752093742",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jharsuguda / Ib Section"
+    },
+    {
+      "sNo": 1,
+      "code": "CPH",
+      "name": "Champa Junction",
+      "cugMobile": "9752090655",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 2,
+      "code": "SIVNI",
+      "name": "Shivni",
+      "cugMobile": "9752090656",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 3,
+      "code": "BPRH",
+      "name": "Balpur Halt",
+      "cugMobile": "9752090657",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 4,
+      "code": "KTHD",
+      "name": "Kothari Road",
+      "cugMobile": "9752090658",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 5,
+      "code": "MWRN",
+      "name": "Madwarani",
+      "cugMobile": "9752090659",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 6,
+      "code": "SRBA",
+      "name": "Saragbundia",
+      "cugMobile": "9752090660",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 7,
+      "code": "LANCO",
+      "name": "Lanco Cabin / Siding",
+      "cugMobile": "9752090661",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 8,
+      "code": "URGA",
+      "name": "Urga",
+      "cugMobile": "9752090663",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 9,
+      "code": "KRBA",
+      "name": "Korba",
+      "cugMobile": "9752090664",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 10,
+      "code": "KBS",
+      "name": "Kotba Siding / Cabin",
+      "cugMobile": "9752090665",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 11,
+      "code": "GAD",
+      "name": "Gevra Road",
+      "cugMobile": "9752090667",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 12,
+      "code": "JND",
+      "name": "Junadih Cabin",
+      "cugMobile": "9752090668",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 13,
+      "code": "DIPIKA",
+      "name": "Dipika Siding / Cabin",
+      "cugMobile": "9752090669",
+      "landline": "",
+      "section": "Champa \u2013 Gevra Road & Korba Section"
+    },
+    {
+      "sNo": 1,
+      "code": "BSP",
+      "name": "Bilaspur Junction",
+      "cugMobile": "9752093742",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 2,
+      "code": "BSP.Chord",
+      "name": "Bilaspur Chord Cabin",
+      "cugMobile": "9752093743",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 3,
+      "code": "USL",
+      "name": "Uslapur",
+      "cugMobile": "9752093744",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 4,
+      "code": "GTK",
+      "name": "Ghutku",
+      "cugMobile": "9752091307",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 5,
+      "code": "KLTR",
+      "name": "Kalmitar",
+      "cugMobile": "9752091308",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 6,
+      "code": "KGB",
+      "name": "Kargi Road",
+      "cugMobile": "9752091309",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 7,
+      "code": "SLKR",
+      "name": "Salkaroad",
+      "cugMobile": "9752091326",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 8,
+      "code": "BIG",
+      "name": "Belgahna",
+      "cugMobile": "9752091327",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 9,
+      "code": "TGQ",
+      "name": "Tenganmada",
+      "cugMobile": "9752091328",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 10,
+      "code": "KGS",
+      "name": "Khongsara",
+      "cugMobile": "9752091637",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 11,
+      "code": "BHTK",
+      "name": "Bhanwarton",
+      "cugMobile": "9752091638",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 12,
+      "code": "KOI",
+      "name": "Khodri",
+      "cugMobile": "9752091639",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 13,
+      "code": "SBRA",
+      "name": "Sarbahara",
+      "cugMobile": "9752091869",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 14,
+      "code": "PND",
+      "name": "Pendra Road",
+      "cugMobile": "9752091870",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 15,
+      "code": "HRB",
+      "name": "Harri",
+      "cugMobile": "9752091871",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 16,
+      "code": "VKR",
+      "name": "Venkatnagar",
+      "cugMobile": "9752092076",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 17,
+      "code": "NIQ",
+      "name": "Nigaura",
+      "cugMobile": "9752092077",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 18,
+      "code": "JTI",
+      "name": "Jaithari",
+      "cugMobile": "9752092078",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 19,
+      "code": "CLF",
+      "name": "Chhulha",
+      "cugMobile": "9752092079",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 20,
+      "code": "APR",
+      "name": "Anuppur Junction",
+      "cugMobile": "9752092080",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 21,
+      "code": "AAL",
+      "name": "Amlai",
+      "cugMobile": "9752092081",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 22,
+      "code": "BUH",
+      "name": "Burhar",
+      "cugMobile": "9752092083",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 23,
+      "code": "CHDX",
+      "name": "Chhada",
+      "cugMobile": "9752092084",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 24,
+      "code": "SNGP",
+      "name": "Singhpur",
+      "cugMobile": "9752092085",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 25,
+      "code": "SDL",
+      "name": "Shahdol",
+      "cugMobile": "9752092086",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 26,
+      "code": "BDWA",
+      "name": "Badhada (Badwha)",
+      "cugMobile": "9752092087",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 27,
+      "code": "GGT",
+      "name": "Ghunghuti",
+      "cugMobile": "9752092327",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 28,
+      "code": "MDXR",
+      "name": "Mudaria",
+      "cugMobile": "9752092328",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 29,
+      "code": "SGTP",
+      "name": "Sanjay Gandhi Thermal Power Cabin",
+      "cugMobile": "9752092329",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 30,
+      "code": "BRS",
+      "name": "Birsinghpur",
+      "cugMobile": "9752092030",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 31,
+      "code": "NRZB",
+      "name": "Nowrozabad",
+      "cugMobile": "9752092331",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 32,
+      "code": "KKI",
+      "name": "Karkeli",
+      "cugMobile": "9752092436",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 33,
+      "code": "UMR",
+      "name": "Umaria",
+      "cugMobile": "9752092437",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 34,
+      "code": "LOA",
+      "name": "Lorha",
+      "cugMobile": "9752092438",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 35,
+      "code": "CHD",
+      "name": "Chandia Road",
+      "cugMobile": "9752092439",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 36,
+      "code": "VYK",
+      "name": "Vilayatkalan Road",
+      "cugMobile": "9752092440",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 37,
+      "code": "RPD",
+      "name": "Rupaund",
+      "cugMobile": "9752092441",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 38,
+      "code": "JLW",
+      "name": "Jhalwara",
+      "cugMobile": "9752092442",
+      "landline": "",
+      "section": "Bilaspur \u2013 Jhalwara Section (Katni Route)"
+    },
+    {
+      "sNo": 1,
+      "code": "DURG",
+      "name": "Durg Junction",
+      "cugMobile": "9752092706",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 2,
+      "code": "BQR",
+      "name": "Bhilai Nagar",
+      "cugMobile": "9752092707",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 3,
+      "code": "BIA",
+      "name": "Bhilai",
+      "cugMobile": "9752092708",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 4,
+      "code": "H Cabin",
+      "name": "H Cabin (Bhilai)",
+      "cugMobile": "9752092709",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 5,
+      "code": "D cabin",
+      "name": "D Cabin (Bhilai Marshalling Yard)",
+      "cugMobile": "9752092499",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 6,
+      "code": "A cabin",
+      "name": "A Cabin",
+      "cugMobile": "9752092622",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 7,
+      "code": "KM I",
+      "name": "Kumhari Cabin / Post",
+      "cugMobile": "9752092794",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 8,
+      "code": "SZB",
+      "name": "Sarona",
+      "cugMobile": "9752092795",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 9,
+      "code": "R",
+      "name": "Raipur Junction",
+      "cugMobile": "9752092491",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 10,
+      "code": "RSD",
+      "name": "Raipur Store Depot Cabin",
+      "cugMobile": "9752092797",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 11,
+      "code": "URK",
+      "name": "Urkura",
+      "cugMobile": "9752092796",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 12,
+      "code": "MDH",
+      "name": "Mandhar",
+      "cugMobile": "9752092492",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 13,
+      "code": "SLH",
+      "name": "Silyari",
+      "cugMobile": "9752092898",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 14,
+      "code": "BKTH",
+      "name": "Baikunth",
+      "cugMobile": "9752092899",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 15,
+      "code": "BKTH.E",
+      "name": "Baikunth East Cabin",
+      "cugMobile": "9752092900",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 16,
+      "code": "TLD",
+      "name": "Tilda Neora",
+      "cugMobile": "9752092924",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 17,
+      "code": "HN",
+      "name": "Hathbandh",
+      "cugMobile": "9752092925",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 18,
+      "code": "HN East",
+      "name": "Hathbandh East Cabin",
+      "cugMobile": "9752092926",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 19,
+      "code": "BYT",
+      "name": "Bhatapara",
+      "cugMobile": "9752092928",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 20,
+      "code": "SM4",
+      "name": "SM-4 Cabin (Bhatapara)",
+      "cugMobile": "9752092927",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 21,
+      "code": "NPI",
+      "name": "Nipania",
+      "cugMobile": "9752093466",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 22,
+      "code": "DGS",
+      "name": "Dagori",
+      "cugMobile": "9752093447",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 23,
+      "code": "BYL",
+      "name": "Belha",
+      "cugMobile": "9752093448",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 24,
+      "code": "DPH",
+      "name": "Dadhapara",
+      "cugMobile": "9752093449",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 25,
+      "code": "BSP",
+      "name": "Bilaspur Junction",
+      "cugMobile": "9752093742",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 26,
+      "code": "C cabin",
+      "name": "C Cabin (Bilaspur Yard)",
+      "cugMobile": "9752092426",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 27,
+      "code": "G cabin",
+      "name": "G Cabin (Bilaspur Yard)",
+      "cugMobile": "9752092497",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 28,
+      "code": "E cabin",
+      "name": "E Cabin (Bilaspur Yard)",
+      "cugMobile": "9752092494",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 29,
+      "code": "I cabin",
+      "name": "I Cabin (Bilaspur Yard)",
+      "cugMobile": "9752092698",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 30,
+      "code": "P cabin",
+      "name": "P Cabin (Bilaspur Yard)",
+      "cugMobile": "9752092623",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 31,
+      "code": "M cabin",
+      "name": "M Cabin (Bilaspur Yard)",
+      "cugMobile": "9752092924",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 32,
+      "code": "K cabin",
+      "name": "K Cabin (Bilaspur Yard)",
+      "cugMobile": "9752092625",
+      "landline": "",
+      "section": "Durg \u2013 Raipur \u2013 Bilaspur Section"
+    },
+    {
+      "sNo": 1,
+      "code": "ITR",
+      "name": "Itwari (NSCB Itwari Jn)",
+      "cugMobile": "9561001648",
+      "landline": "0712-2764324",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 2,
+      "code": "KAV",
+      "name": "Kalamna",
+      "cugMobile": "9561001649",
+      "landline": "0712-2680711",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 3,
+      "code": "KP",
+      "name": "Kamptee",
+      "cugMobile": "9561001650",
+      "landline": "07109-288227",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 4,
+      "code": "KNHN",
+      "name": "Kanhan Junction",
+      "cugMobile": "9561001651",
+      "landline": "07102-236217",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 5,
+      "code": "SAL",
+      "name": "Salwa",
+      "cugMobile": "9561001654",
+      "landline": "07102-202170",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 6,
+      "code": "CHCR",
+      "name": "Chacher",
+      "cugMobile": "9561001655",
+      "landline": "07115-287214",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 7,
+      "code": "TAR",
+      "name": "Tharsa",
+      "cugMobile": "9561001656",
+      "landline": "07115-238675",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 8,
+      "code": "RRL",
+      "name": "Rewral",
+      "cugMobile": "9561001657",
+      "landline": "07115-233573",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 9,
+      "code": "KT",
+      "name": "Khat",
+      "cugMobile": "9561001175",
+      "landline": "07115-234242",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 10,
+      "code": "BRD",
+      "name": "Bhandara Road",
+      "cugMobile": "9561001176",
+      "landline": "07184-285537",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 11,
+      "code": "K",
+      "name": "Kardi",
+      "cugMobile": "8600104961",
+      "landline": "07184-220013",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 12,
+      "code": "TMR",
+      "name": "Tumsar Road Junction",
+      "cugMobile": "9561214397",
+      "landline": "07183-223413",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 13,
+      "code": "MNU",
+      "name": "Mundikota",
+      "cugMobile": "9561001179",
+      "landline": "07198-280356",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 14,
+      "code": "TRO",
+      "name": "Tirora",
+      "cugMobile": "9561001180",
+      "landline": "07198-254022",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 15,
+      "code": "KWN",
+      "name": "Kachewani",
+      "cugMobile": "9561071166",
+      "landline": "07198-251041",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 16,
+      "code": "GJ",
+      "name": "Gangajhari",
+      "cugMobile": "9561043335",
+      "landline": "07182-285029",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 17,
+      "code": "G",
+      "name": "Gondia Junction",
+      "cugMobile": "9561006830",
+      "landline": "07182-265567",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 18,
+      "code": "GDM",
+      "name": "Gudma",
+      "cugMobile": "9561006665",
+      "landline": "07182-260031",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 19,
+      "code": "AGN",
+      "name": "Amgaon",
+      "cugMobile": "9561006659",
+      "landline": "07189-225254",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 20,
+      "code": "SKS",
+      "name": "Salekasa",
+      "cugMobile": "9561001174",
+      "landline": "07180-244131",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 21,
+      "code": "DKS",
+      "name": "Darekasa",
+      "cugMobile": "9752093764",
+      "landline": "07180-244532",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 22,
+      "code": "BTL",
+      "name": "Bortalao",
+      "cugMobile": "9752093806",
+      "landline": "07823-213007",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 23,
+      "code": "PJB",
+      "name": "Paniajob",
+      "cugMobile": "9752093807",
+      "landline": "07823-212517",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 24,
+      "code": "DGG",
+      "name": "Dongargarh",
+      "cugMobile": "9752093808",
+      "landline": "07823-232854",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 25,
+      "code": "JTR",
+      "name": "Jatkanhar",
+      "cugMobile": "9752093809",
+      "landline": "07823-212698",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 26,
+      "code": "MUA",
+      "name": "Musra",
+      "cugMobile": "9752093810",
+      "landline": "07744-291412",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 27,
+      "code": "BKL",
+      "name": "Bakal",
+      "cugMobile": "9752093811",
+      "landline": "07744-291503",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 28,
+      "code": "RJN",
+      "name": "Raj Nandgaon",
+      "cugMobile": "9752093813",
+      "landline": "07744-224170",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 29,
+      "code": "PMS",
+      "name": "Parmalkasa",
+      "cugMobile": "9752093814",
+      "landline": "07744-291413",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 30,
+      "code": "MUP",
+      "name": "Murhipar",
+      "cugMobile": "9752093815",
+      "landline": "0788-2111697",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    },
+    {
+      "sNo": 31,
+      "code": "RSM",
+      "name": "Rasmara",
+      "cugMobile": "9752093816",
+      "landline": "0788-2111522",
+      "section": "Itwari \u2013 Gondia \u2013 Dongargarh \u2013 Rasmara Section"
+    }
+  ]
+}

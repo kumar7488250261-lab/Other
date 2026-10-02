@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kharsia Lobby</string>
+    <string name="title_crew_directory">Crew Contact Directory</string>
+    <string name="title_running_room">Kharsia Running Room</string>
+    <string name="title_secr_division">SECR Bilaspur Division</string>
+    <string name="search_hint">Search crew by name, designation, lobby or mobile...</string>
+</resources>

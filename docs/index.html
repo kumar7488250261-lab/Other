@@ -1,0 +1,2132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Kharsia Lobby Portal • SECR Bilaspur Division — Login & Operational Portal</title>
+  <meta name="description" content="South East Central Railway (SECR) Bilaspur Division - Kharsia Combined Lobby Staff Portal. Login, Registration, PR Remarks, Store Register, Long Hour Tracker, Jeep Movement, Shift Roster, LR Declaration, and Android App APK Download.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚂</text></svg>">
+  <style>
+    :root {
+      --bg: #070c14;
+      --surface: #0f1827;
+      --surface-elevated: #162235;
+      --surface-card: #121e31;
+      --surface-hover: #1b2b44;
+      --border: #1e314d;
+      --border-accent: #2d4a75;
+      --text-main: #f1f5f9;
+      --text-muted: #94a3b8;
+      --text-dim: #64748b;
+      --gold: #f59e0b;
+      --gold-dark: #b45309;
+      --gold-glow: rgba(245, 158, 11, 0.18);
+      --green: #10b981;
+      --green-dark: #059669;
+      --green-glow: rgba(16, 185, 129, 0.2);
+      --blue: #38bdf8;
+      --red: #ef4444;
+      --purple: #a855f7;
+      --navy: #0e1e38;
+      --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1.25rem;
+      width: 100%;
+    }
+
+    /* Top Strip */
+    .top-strip {
+      background: #05080e;
+      border-bottom: 1px solid var(--border);
+      padding: 0.4rem 0;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+    .top-strip-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    .live-time {
+      color: var(--gold);
+      font-family: var(--font-mono);
+      font-weight: 600;
+    }
+
+    /* Header */
+    header.app-header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0.85rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+    }
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+    .brand-wrap {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      cursor: pointer;
+    }
+    .brand-emblem {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, #1e3a8a, #0f172a);
+      border: 1.5px solid var(--gold);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+    .brand-text h1 {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+    .brand-text h1 span {
+      color: var(--gold);
+    }
+    .brand-text p {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .user-pill {
+      background: var(--surface-elevated);
+      border: 1px solid var(--border-accent);
+      padding: 0.35rem 0.75rem;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      color: var(--text-main);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .user-badge {
+      background: var(--gold);
+      color: #070c14;
+      font-weight: 800;
+      font-size: 0.7rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      padding: 0.65rem 1.25rem;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+    }
+    .btn-sm {
+      padding: 0.4rem 0.85rem;
+      font-size: 0.8rem;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
+      color: #070c14;
+      box-shadow: 0 4px 14px var(--gold-glow);
+    }
+    .btn-primary:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(245, 158, 11, 0.3);
+    }
+    .btn-success {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      color: #ffffff;
+      box-shadow: 0 4px 14px var(--green-glow);
+    }
+    .btn-success:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(16, 185, 129, 0.35);
+    }
+    .btn-outline {
+      background: var(--surface-elevated);
+      color: var(--text-main);
+      border: 1px solid var(--border-accent);
+    }
+    .btn-outline:hover {
+      background: var(--surface-hover);
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+    .btn-danger {
+      background: rgba(239, 68, 68, 0.15);
+      color: var(--red);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+    }
+    .btn-danger:hover {
+      background: var(--red);
+      color: #ffffff;
+    }
+
+    /* Main Area */
+    main {
+      flex: 1;
+      padding: 1.75rem 0 3.5rem;
+    }
+
+    /* Screen Sections */
+    .screen-view {
+      display: none;
+      animation: fadeIn 0.2s ease;
+    }
+    .screen-view.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Welcome / Landing Screen */
+    .welcome-card {
+      max-width: 620px;
+      margin: 1.5rem auto;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 2.25rem;
+      text-align: center;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+    .welcome-emblem {
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 1.25rem;
+      background: linear-gradient(135deg, #1e3a8a, #0f172a);
+      border: 2px solid var(--gold);
+      border-radius: 22px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 46px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .welcome-title {
+      font-size: 2rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.2;
+    }
+    .welcome-title span {
+      color: var(--gold);
+    }
+    .welcome-hindi {
+      font-size: 1.15rem;
+      color: #e2e8f0;
+      font-weight: 600;
+      margin-top: 0.3rem;
+    }
+    .welcome-sub {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin: 0.85rem auto 1.75rem;
+      max-width: 480px;
+    }
+
+    /* Auth Card (Login & Register) */
+    .auth-card {
+      max-width: 480px;
+      margin: 1rem auto;
+      background: var(--surface);
+      border: 1px solid var(--border-accent);
+      border-radius: 16px;
+      padding: 1.75rem;
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+    }
+    .auth-tabs {
+      display: flex;
+      border-bottom: 2px solid var(--border);
+      margin-bottom: 1.5rem;
+      gap: 0.5rem;
+    }
+    .auth-tab-btn {
+      flex: 1;
+      padding: 0.75rem;
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      border-radius: 8px 8px 0 0;
+      transition: all 0.2s;
+    }
+    .auth-tab-btn.active {
+      color: var(--gold);
+      background: rgba(245, 158, 11, 0.1);
+      border-bottom: 2px solid var(--gold);
+      margin-bottom: -2px;
+    }
+
+    /* Form Elements */
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin-bottom: 1.15rem;
+      text-align: left;
+    }
+    .form-group label {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .form-control {
+      background: var(--surface-elevated);
+      border: 1px solid var(--border);
+      color: #ffffff;
+      padding: 0.7rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.92rem;
+      outline: none;
+      transition: all 0.2s;
+      font-family: inherit;
+    }
+    .form-control:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 2px rgba(245, 158, 11, 0.2);
+    }
+    .field-hint {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      margin-top: 0.2rem;
+    }
+    .field-match {
+      font-size: 0.78rem;
+      color: var(--green);
+      font-weight: 600;
+      margin-top: 0.2rem;
+    }
+
+    /* APK Download Promo Box */
+    .apk-promo {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.12) 0%, rgba(14, 30, 56, 0.6) 100%);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      border-radius: 14px;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.25rem;
+      flex-wrap: wrap;
+      margin-bottom: 1.75rem;
+    }
+    .apk-promo-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .android-badge {
+      width: 48px;
+      height: 48px;
+      background: var(--green);
+      color: #042f2e;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 26px;
+      box-shadow: 0 4px 14px var(--green-glow);
+    }
+    .apk-promo-text h3 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #ffffff;
+    }
+    .apk-promo-text p {
+      font-size: 0.8rem;
+      color: #a7f3d0;
+      font-family: var(--font-mono);
+      margin-top: 0.2rem;
+    }
+
+    /* Menu Grid (Staff Directory Removed) */
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1rem;
+    }
+    .menu-card {
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.35rem;
+      display: flex;
+      align-items: center;
+      gap: 1.15rem;
+      text-decoration: none;
+      color: inherit;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .menu-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--border-accent);
+      background: var(--surface-hover);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+    .menu-icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+      flex-shrink: 0;
+    }
+    .menu-content h3 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.25;
+    }
+    .menu-hindi {
+      font-size: 0.85rem;
+      color: var(--gold);
+      font-weight: 600;
+      margin-top: 0.15rem;
+    }
+    .menu-content p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 0.25rem;
+    }
+    .menu-arrow {
+      margin-left: auto;
+      color: var(--gold);
+      font-weight: 800;
+      font-size: 1.2rem;
+    }
+
+    /* Back Button Bar in Module Views */
+    .view-top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .view-title-group h2 {
+      font-size: 1.45rem;
+      font-weight: 800;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .view-title-group p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 0.2rem;
+    }
+
+    /* Metrics Grid */
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .metric-card {
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.15rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+    .metric-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+    .metric-data h4 {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+    .metric-data .num {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #ffffff;
+      line-height: 1.2;
+      font-family: var(--font-mono);
+    }
+
+    /* Forms in modules */
+    .form-card {
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.35rem 1.5rem;
+      margin-bottom: 1.75rem;
+    }
+    .form-head {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+
+    /* Tables */
+    .table-card {
+      background: var(--surface-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+    .table-top {
+      padding: 0.9rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .table-title {
+      font-weight: 700;
+      color: #ffffff;
+      font-size: 0.95rem;
+    }
+    .search-box {
+      background: var(--surface-elevated);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.45rem 0.85rem;
+      color: #ffffff;
+      font-size: 0.85rem;
+      outline: none;
+      width: 250px;
+    }
+    .search-box:focus {
+      border-color: var(--gold);
+    }
+    .table-responsive {
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.88rem;
+    }
+    th {
+      background: var(--surface-elevated);
+      color: var(--text-dim);
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    td {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text-main);
+      vertical-align: middle;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    tr:hover td {
+      background: var(--surface-hover);
+    }
+
+    /* Badges */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.2rem 0.55rem;
+      border-radius: 6px;
+      text-transform: uppercase;
+      font-family: var(--font-mono);
+    }
+    .badge-gold {
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: var(--gold);
+    }
+    .badge-green {
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      color: var(--green);
+    }
+    .badge-red {
+      background: rgba(239, 68, 68, 0.15);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      color: var(--red);
+    }
+    .badge-blue {
+      background: rgba(56, 189, 248, 0.15);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: var(--blue);
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #111a29;
+      border: 1px solid var(--gold);
+      color: #ffffff;
+      padding: 0.85rem 1.25rem;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      font-size: 0.9rem;
+      z-index: 1000;
+      display: none;
+      animation: toastIn 0.3s ease;
+    }
+    @keyframes toastIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    /* Footer */
+    footer {
+      background: #05080e;
+      border-top: 1px solid var(--border);
+      padding: 1.75rem 0;
+      color: var(--text-dim);
+      font-size: 0.82rem;
+      text-align: center;
+    }
+    footer a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    @media (max-width: 768px) {
+      .welcome-card { padding: 1.5rem; }
+      .welcome-title { font-size: 1.6rem; }
+      .menu-grid { grid-template-columns: 1fr; }
+      .apk-promo { flex-direction: column; align-items: stretch; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Strip -->
+  <div class="top-strip">
+    <div class="container top-strip-inner">
+      <div>
+        <span>SOUTH EAST CENTRAL RAILWAY (SECR) • BILASPUR DIVISION</span>
+      </div>
+      <div>
+        <span>Current Time: <span class="live-time" id="clockDisplay">--:--:--</span></span>
+        <span style="margin: 0 0.4rem;">•</span>
+        <span class="live-time" id="shiftDisplay">Shift: --</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- App Header -->
+  <header class="app-header">
+    <div class="container header-inner">
+      <div class="brand-wrap" onclick="navigate('home')">
+        <div class="brand-emblem">🚂</div>
+        <div class="brand-text">
+          <h1>Kharsia Lobby <span>Portal</span></h1>
+          <p>संयुक्त चालक एवं परिचालक लॉबी • SECR</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <!-- Visible when NOT logged in -->
+        <div id="header-guest-actions" style="display: flex; gap: 0.6rem;">
+          <button class="btn btn-outline btn-sm" onclick="showAuth('login')">Sign In</button>
+          <button class="btn btn-primary btn-sm" onclick="showAuth('register')">Register</button>
+        </div>
+
+        <!-- Visible when logged in -->
+        <div id="header-user-actions" style="display: none; align-items: center; gap: 0.75rem;">
+          <div class="user-pill">
+            <span id="header-user-name">Staff</span>
+            <span class="user-badge" id="header-user-badge">CREW</span>
+          </div>
+          <button class="btn btn-outline btn-sm" onclick="handleLogout()">Sign Out</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main View Container -->
+  <main class="container">
+
+    <!-- ============================================================== -->
+    <!-- SCREEN 1: WELCOME & LANDING SCREEN (When guest or on start)    -->
+    <!-- ============================================================== -->
+    <div id="screen-welcome" class="screen-view active">
+      <div class="welcome-card">
+        <div class="welcome-emblem">🚂</div>
+        <h2 class="welcome-title">Welcome to <span>Kharsia Lobby</span></h2>
+        <div class="welcome-hindi">संयुक्त चालक एवं परिचालक लॉबी, खरसिया</div>
+        <p class="welcome-sub">
+          Official Railway Operations Portal for SECR Bilaspur Division.
+          Access Periodical Rest remarks, Store Registers, Long Hour monitoring, Jeep Movement, Shift Roster, and Route Declarations.
+        </p>
+
+        <!-- Main Actions -->
+        <div style="display: flex; flex-direction: column; gap: 0.85rem; max-width: 340px; margin: 0 auto 1.75rem;">
+          <button class="btn btn-primary" style="padding: 0.85rem;" onclick="showAuth('login')">
+            <span>Staff Sign In (लॉगिन करें)</span>
+            <span>&rarr;</span>
+          </button>
+          <button class="btn btn-outline" style="padding: 0.85rem;" onclick="showAuth('register')">
+            <span>New Staff Registration (नया पंजीकरण)</span>
+          </button>
+        </div>
+
+        <!-- APK Download Card on Landing -->
+        <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.35); border-radius: 12px; padding: 1.15rem; text-align: left; display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap;">
+          <div>
+            <div style="font-weight: 800; color: #ffffff; font-size: 0.95rem; display: flex; align-items: center; gap: 0.4rem;">
+              <span>📱</span> Kharsia Lobby Android App (APK)
+            </div>
+            <div style="font-size: 0.78rem; color: #a7f3d0; margin-top: 0.2rem; font-family: var(--font-mono);">
+              v2.4.0 Latest Release • Size ~26 MB
+            </div>
+          </div>
+          <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <a href="https://github.com/abhishekused/Newapk/releases/latest/download/app-debug.apk" download class="btn btn-success btn-sm">
+              <span>⬇️ Download APK</span>
+            </a>
+            <a href="./kharsia-lobby.apk" download="kharsia-lobby-app.apk" class="btn btn-outline btn-sm">
+              <span>Direct Mirror</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- SCREEN 2: AUTHENTICATION SCREEN (LOGIN / REGISTER)             -->
+    <!-- ============================================================== -->
+    <div id="screen-auth" class="screen-view">
+      <div class="auth-card">
+        <!-- Tabs -->
+        <div class="auth-tabs">
+          <button id="btn-tab-login" class="auth-tab-btn active" onclick="switchAuthTab('login')">Staff Sign In</button>
+          <button id="btn-tab-register" class="auth-tab-btn" onclick="switchAuthTab('register')">New Registration</button>
+        </div>
+
+        <!-- Sign In Form -->
+        <form id="form-login" onsubmit="handleLoginSubmit(event)">
+          <div class="form-group">
+            <label>Crew CMS ID or Mobile *</label>
+            <input type="text" class="form-control" id="login-id" placeholder="Enter Crew ID or Mobile" required style="font-family: var(--font-mono); text-transform: uppercase;">
+            <div class="field-hint">e.g. KHS1001, BSP102, or your registered mobile number</div>
+          </div>
+
+          <div class="form-group">
+            <label>Password / PIN *</label>
+            <input type="password" class="form-control" id="login-password" placeholder="Enter your password or PIN" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+            Authenticate Staff &rarr;
+          </button>
+
+          <div style="margin-top: 1.25rem; text-align: center;">
+            <a href="javascript:void(0)" onclick="switchAuthTab('register')" style="color: var(--gold); font-size: 0.85rem; text-decoration: none;">
+              New running staff or supervisor? Register here
+            </a>
+          </div>
+        </form>
+
+        <!-- Register Form -->
+        <form id="form-register" style="display: none;" onsubmit="handleRegisterSubmit(event)">
+          <div class="form-group">
+            <label>Crew CMS ID *</label>
+            <input type="text" class="form-control" id="reg-id" placeholder="e.g. KHS1025" required oninput="checkCrewIdMatch(this.value)" style="font-family: var(--font-mono); text-transform: uppercase;">
+            <div id="reg-crew-match" class="field-match"></div>
+          </div>
+
+          <div class="form-group">
+            <label>Full Name *</label>
+            <input type="text" class="form-control" id="reg-name" placeholder="Staff Name" required>
+          </div>
+
+          <div class="form-group">
+            <label>Designation *</label>
+            <select class="form-control" id="reg-desig">
+              <option value="Loco Pilot (Goods)">Loco Pilot (Goods) - LPG</option>
+              <option value="Loco Pilot (Passenger)">Loco Pilot (Passenger) - LPP</option>
+              <option value="Assistant Loco Pilot">Assistant Loco Pilot - ALP</option>
+              <option value="Train Manager (Guard)">Train Manager (Guard) - TM</option>
+              <option value="Chief Loco Inspector">Chief Loco Inspector - CLI</option>
+              <option value="Crew Controller">Crew Controller / Desk In-Charge</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>CUG / Mobile Number *</label>
+            <input type="tel" class="form-control" id="reg-mobile" placeholder="10-digit mobile number" required style="font-family: var(--font-mono);">
+          </div>
+
+          <div class="form-group">
+            <label>Create Password / PIN *</label>
+            <input type="password" class="form-control" id="reg-password" placeholder="Create secret password / PIN" required>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
+            Complete Staff Registration &rarr;
+          </button>
+
+          <div style="margin-top: 1.25rem; text-align: center;">
+            <a href="javascript:void(0)" onclick="switchAuthTab('login')" style="color: var(--gold); font-size: 0.85rem; text-decoration: none;">
+              Already registered? Sign in here
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- SCREEN 3: MAIN MENU (STAFF DIRECTORY REMOVED)                  -->
+    <!-- ============================================================== -->
+    <div id="screen-main-menu" class="screen-view">
+      <!-- Top APK Download Banner -->
+      <div class="apk-promo">
+        <div class="apk-promo-left">
+          <div class="android-badge">📱</div>
+          <div class="apk-promo-text">
+            <h3>Download Official Android App (APK)</h3>
+            <p>Direct SECR Kharsia Lobby APK (v2.4.0 • ~26 MB) for mobile devices</p>
+          </div>
+        </div>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <a href="https://github.com/abhishekused/Newapk/releases/latest/download/app-debug.apk" download class="btn btn-success btn-sm">
+            <span>⬇️ GitHub Release APK</span>
+          </a>
+          <a href="./kharsia-lobby.apk" download="kharsia-lobby-app.apk" class="btn btn-outline btn-sm">
+            <span>Direct Mirror</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick KPI Strip -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(56, 189, 248, 0.15); color: var(--blue);">📋</div>
+          <div class="metric-data">
+            <h4>Pending PR Remarks</h4>
+            <div class="num" id="menu-stat-pr">0</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(168, 85, 247, 0.15); color: var(--purple);">🧰</div>
+          <div class="metric-data">
+            <h4>Issued Equipment</h4>
+            <div class="num" id="menu-stat-store">0</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(239, 68, 68, 0.15); color: var(--red);">⏱️</div>
+          <div class="metric-data">
+            <h4>Long Hour Duties</h4>
+            <div class="num" id="menu-stat-lh">0</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(16, 185, 129, 0.15); color: var(--green);">🚙</div>
+          <div class="metric-data">
+            <h4>Available Jeeps</h4>
+            <div class="num" id="menu-stat-jeep">0</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Operational Navigation Cards (Staff Directory Removed) -->
+      <div class="menu-grid">
+        <!-- 1. PR Remark -->
+        <div class="menu-card" onclick="navigate('pr')">
+          <div class="menu-icon" style="background: rgba(41, 121, 255, 0.15); color: #2979FF;">📋</div>
+          <div class="menu-content">
+            <h3>Periodical Rest (PR)</h3>
+            <div class="menu-hindi">पी.आर रिमार्क एवं साइन-ऑफ</div>
+            <p>Mark PR, Sign-off time, 30h / 40h / 54h calculation & approvals</p>
+          </div>
+          <div class="menu-arrow">&rarr;</div>
+        </div>
+
+        <!-- 2. Store Register -->
+        <div class="menu-card" onclick="navigate('store')">
+          <div class="menu-icon" style="background: rgba(186, 104, 200, 0.15); color: #BA68C8;">🧰</div>
+          <div class="menu-content">
+            <h3>Store Register</h3>
+            <div class="menu-hindi">उपकरण इश्यू एवं रिटर्न रजिस्टर</div>
+            <p>Fast Issue & Return: Walkie-Talkies, Torches, Flags, Tail Lamps</p>
+          </div>
+          <div class="menu-arrow">&rarr;</div>
+        </div>
+
+        <!-- 3. Long Hour Update -->
+        <div class="menu-card" onclick="navigate('longhour')">
+          <div class="menu-icon" style="background: rgba(255, 183, 77, 0.15); color: #FFB74D;">⏱️</div>
+          <div class="menu-content">
+            <h3>Long Hour Duties</h3>
+            <div class="menu-hindi">लॉन्ग ऑवर ड्यूटी मॉनिटरिंग</div>
+            <p>Duty duration tracking with &gt;9h and &gt;12h warning alerts & relief status</p>
+          </div>
+          <div class="menu-arrow">&rarr;</div>
+        </div>
+
+        <!-- 4. Jeep Movement -->
+        <div class="menu-card" onclick="navigate('jeep')">
+          <div class="menu-icon" style="background: rgba(255, 64, 129, 0.15); color: #FF4081;">🚙</div>
+          <div class="menu-content">
+            <h3>Jeep Movement</h3>
+            <div class="menu-hindi">गाड़ी मूवमेंट एवं उपलब्धता</div>
+            <p>Attached vehicle fleet availability, driver contact & movement log</p>
+          </div>
+          <div class="menu-arrow">&rarr;</div>
+        </div>
+
+        <!-- 5. Roaster & TLC Update -->
+        <div class="menu-card" onclick="navigate('roster')">
+          <div class="menu-icon" style="background: rgba(79, 195, 247, 0.15); color: #4FC3F7;">🗓️</div>
+          <div class="menu-content">
+            <h3>Shift Roster & TLC</h3>
+            <div class="menu-hindi">शिफ्ट-वाइज रोस्टर एवं टीएलसी</div>
+            <p>3-Shift operations (00-08, 08-16, 16-24) & TLC Bilaspur direct lines</p>
+          </div>
+          <div class="menu-arrow">&rarr;</div>
+        </div>
+
+        <!-- 6. LR Declaration -->
+        <div class="menu-card" onclick="navigate('lr')">
+          <div class="menu-icon" style="background: rgba(16, 185, 129, 0.15); color: #10B981;">🛣️</div>
+          <div class="menu-content">
+            <h3>LR Declaration</h3>
+            <div class="menu-hindi">एल.आर (Learning Road) घोषणा</div>
+            <p>Route knowledge declaration, section validity & trip logging</p>
+          </div>
+          <div class="menu-arrow">&rarr;</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- MODULE VIEW: PERIODICAL REST (PR)                              -->
+    <!-- ============================================================== -->
+    <div id="view-pr" class="screen-view">
+      <div class="view-top-bar">
+        <div class="view-title-group">
+          <h2>📋 Periodical Rest (PR) Remarks</h2>
+          <p>Sign-Off Record, PR Due Calculation (30h / 40h / 54h) & In-Charge Approvals</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="navigate('menu')">&larr; Back to Menu</button>
+      </div>
+
+      <!-- Add PR Form -->
+      <div class="form-card">
+        <div class="form-head">✍️ Mark Periodical Rest (पी.आर प्रविष्टि दर्ज करें)</div>
+        <form onsubmit="handlePrSubmit(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Crew CMS ID *</label>
+              <input type="text" class="form-control" id="pr-crew-id" placeholder="e.g. KHS1001, BSP102" required>
+            </div>
+            <div class="form-group">
+              <label>Crew Name *</label>
+              <input type="text" class="form-control" id="pr-crew-name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <label>Designation</label>
+              <select class="form-control" id="pr-designation">
+                <option value="Loco Pilot (Goods)">Loco Pilot (Goods) - LPG</option>
+                <option value="Loco Pilot (Passenger)">Loco Pilot (Passenger) - LPP</option>
+                <option value="Assistant Loco Pilot">Assistant Loco Pilot - ALP</option>
+                <option value="Train Manager (Guard)">Train Manager (Guard) - TM</option>
+                <option value="Loco Pilot (Shunting)">Loco Pilot (Shunting)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Sign-Off Date & Time *</label>
+              <input type="datetime-local" class="form-control" id="pr-signoff-time" required>
+            </div>
+            <div class="form-group">
+              <label>PR Duration Required *</label>
+              <select class="form-control" id="pr-duration">
+                <option value="30 Hours">30 Hours Periodical Rest</option>
+                <option value="40 Hours">40 Hours Periodical Rest</option>
+                <option value="54 Hours">54 Hours Periodical Rest (Extended)</option>
+                <option value="22 Hours (Local)">22 Hours Local Rest</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Contact Mobile No.</label>
+              <input type="tel" class="form-control" id="pr-mobile" placeholder="10-digit mobile number">
+            </div>
+            <div class="form-group" style="grid-column: 1 / -1;">
+              <label>Remarks / Station of Relief</label>
+              <input type="text" class="form-control" id="pr-remarks" placeholder="Relieved at station / Train number / Reason">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.85rem;">💾 Save PR Remark</button>
+        </form>
+      </div>
+
+      <!-- PR Records Table -->
+      <div class="table-card">
+        <div class="table-top">
+          <div class="table-title">Current PR Registers (वर्तमान पी.आर सूची)</div>
+          <input type="text" class="search-box" placeholder="Search Crew ID, Name..." oninput="renderPrTable(this.value)">
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>CMS ID</th>
+                <th>Crew Name</th>
+                <th>Designation</th>
+                <th>Sign-Off Time</th>
+                <th>PR Duration</th>
+                <th>Mobile</th>
+                <th>Remarks</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="pr-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- MODULE VIEW: STORE REGISTER                                    -->
+    <!-- ============================================================== -->
+    <div id="view-store" class="screen-view">
+      <div class="view-top-bar">
+        <div class="view-title-group">
+          <h2>🧰 Store & Equipment Register</h2>
+          <p>Lobby Safety Equipment Inventory, Fast Issue to Crew & Return Register</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="navigate('menu')">&larr; Back to Menu</button>
+      </div>
+
+      <!-- Stock Metrics -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(16, 185, 129, 0.15); color: var(--green);">📻</div>
+          <div class="metric-data">
+            <h4>Walkie-Talkies (VHF)</h4>
+            <div class="num" id="stock-walkie">24 / 40</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(245, 158, 11, 0.15); color: var(--gold);">🔦</div>
+          <div class="metric-data">
+            <h4>Tri-Color Torches</h4>
+            <div class="num" id="stock-torch">18 / 35</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(239, 68, 68, 0.15); color: var(--red);">🚩</div>
+          <div class="metric-data">
+            <h4>HS Flags (Pair)</h4>
+            <div class="num" id="stock-flag">30 / 45</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(168, 85, 247, 0.15); color: var(--purple);">🏮</div>
+          <div class="metric-data">
+            <h4>Loco Tail Lamps</h4>
+            <div class="num" id="stock-lamp">12 / 20</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Issue Form -->
+      <div class="form-card">
+        <div class="form-head">📤 Fast Issue Equipment to Crew</div>
+        <form onsubmit="handleStoreIssue(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Crew CMS ID *</label>
+              <input type="text" class="form-control" id="store-crew-id" placeholder="e.g. KHS1004" required>
+            </div>
+            <div class="form-group">
+              <label>Crew Name *</label>
+              <input type="text" class="form-control" id="store-crew-name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <label>Equipment Type *</label>
+              <select class="form-control" id="store-item-type">
+                <option value="Walkie-Talkie (VHF Set)">Walkie-Talkie (VHF 5W Set)</option>
+                <option value="Tri-Color LED Torch">Tri-Color Rechargeable Torch</option>
+                <option value="HS Flags (Pair Red/Green)">Hand Signal Flags (Red + Green)</option>
+                <option value="Loco Flasher / Tail Lamp">Loco Flasher / Tail Lamp</option>
+                <option value="Reversible Loco Spanner">Loco Reversible Spanner</option>
+                <option value="Detonators (Tin of 10)">Detonators / Fog Signals (10 Pcs)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Item Serial / Barcode No. *</label>
+              <input type="text" class="form-control" id="store-serial" placeholder="e.g. WT-KHS-042" required>
+            </div>
+            <div class="form-group">
+              <label>Train / Loco Number</label>
+              <input type="text" class="form-control" id="store-train" placeholder="e.g. 12834 / WAG9-31245">
+            </div>
+            <div class="form-group">
+              <label>Issued By (Supervisor)</label>
+              <input type="text" class="form-control" id="store-issued-by" value="CC / Lobby Desk" required>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.85rem;">📤 Issue Equipment</button>
+        </form>
+      </div>
+
+      <!-- Active Issued Register -->
+      <div class="table-card">
+        <div class="table-top">
+          <div class="table-title">Currently Issued Equipment Register</div>
+          <input type="text" class="search-box" placeholder="Search Item or Crew..." oninput="renderStoreTable(this.value)">
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Serial No.</th>
+                <th>Equipment</th>
+                <th>Issued To Crew</th>
+                <th>Train / Loco</th>
+                <th>Issue Date & Time</th>
+                <th>Issued By</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="store-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- MODULE VIEW: LONG HOUR DUTY TRACKER                            -->
+    <!-- ============================================================== -->
+    <div id="view-longhour" class="screen-view">
+      <div class="view-top-bar">
+        <div class="view-title-group">
+          <h2>⏱️ Long Hour Duty Monitoring Board</h2>
+          <p>Running Staff Duties Exceeding 9 Hours and 12 Hours High Priority Alert</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="navigate('menu')">&larr; Back to Menu</button>
+      </div>
+
+      <!-- Long Hour Metrics -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(239, 68, 68, 0.15); color: var(--red);">🚨</div>
+          <div class="metric-data">
+            <h4>Critical (&gt;12 Hours)</h4>
+            <div class="num" id="lh-stat-12">0</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(245, 158, 11, 0.15); color: var(--gold);">⚠️</div>
+          <div class="metric-data">
+            <h4>Long Hour (&gt;9 Hours)</h4>
+            <div class="num" id="lh-stat-9">0</div>
+          </div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-icon" style="background: rgba(16, 185, 129, 0.15); color: var(--green);">🟢</div>
+          <div class="metric-data">
+            <h4>Under Relief</h4>
+            <div class="num" id="lh-stat-relief">0</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add Long Hour Form -->
+      <div class="form-card">
+        <div class="form-head">⚠️ Report Long Hour Running Duty</div>
+        <form onsubmit="handleLhSubmit(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Crew CMS ID *</label>
+              <input type="text" class="form-control" id="lh-crew-id" placeholder="e.g. KHS1021" required>
+            </div>
+            <div class="form-group">
+              <label>Crew Name *</label>
+              <input type="text" class="form-control" id="lh-crew-name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <label>Train No. / Name *</label>
+              <input type="text" class="form-control" id="lh-train" placeholder="e.g. BOXN / N-BSP" required>
+            </div>
+            <div class="form-group">
+              <label>Loco Number</label>
+              <input type="text" class="form-control" id="lh-loco" placeholder="e.g. WAG9 32145">
+            </div>
+            <div class="form-group">
+              <label>Sign-On Time *</label>
+              <input type="datetime-local" class="form-control" id="lh-signon-time" required>
+            </div>
+            <div class="form-group">
+              <label>Current Working Section *</label>
+              <input type="text" class="form-control" id="lh-section" placeholder="e.g. Between RIG and KHS" required>
+            </div>
+            <div class="form-group">
+              <label>Reason for Detention *</label>
+              <select class="form-control" id="lh-reason">
+                <option value="Precedence to Coaching Trains">Precedence to Coaching Trains</option>
+                <option value="Signal / Track Maintenance Block">Signal / Track Maintenance Block</option>
+                <option value="Loco Trouble / Power Issue">Loco Trouble / Power Issue</option>
+                <option value="Waiting for Crossing / Yard Congestion">Waiting for Crossing / Yard Congestion</option>
+                <option value="Late Arrival of Relief Crew">Late Arrival of Relief Crew</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Relief Status</label>
+              <select class="form-control" id="lh-relief-status">
+                <option value="Relief Required Urgently">Relief Required Urgently</option>
+                <option value="Relief Crew Dispatched by Jeep">Relief Crew Dispatched by Jeep</option>
+                <option value="Train Approaching Kharsia Yard">Train Approaching Kharsia Yard</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.85rem;">🚨 Report Long Hour</button>
+        </form>
+      </div>
+
+      <!-- Long Hour Duties Table -->
+      <div class="table-card">
+        <div class="table-top">
+          <div class="table-title">Live Long Hour Board (लॉन्ग ऑवर ड्यूटी सूची)</div>
+          <input type="text" class="search-box" placeholder="Search Train or Crew..." oninput="renderLhTable(this.value)">
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Train / Loco</th>
+                <th>Crew Member</th>
+                <th>Sign-On</th>
+                <th>Duty Hours</th>
+                <th>Section</th>
+                <th>Detention Reason</th>
+                <th>Relief Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="lh-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- MODULE VIEW: JEEP MOVEMENT & AVAILABILITY                      -->
+    <!-- ============================================================== -->
+    <div id="view-jeep" class="screen-view">
+      <div class="view-top-bar">
+        <div class="view-title-group">
+          <h2>🚙 Jeep Movement & Fleet Availability</h2>
+          <p>Lobby Attached Relief Vehicles, Driver Contact & Movement Register</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="navigate('menu')">&larr; Back to Menu</button>
+      </div>
+
+      <!-- Fleet Grid -->
+      <div class="form-card" style="margin-bottom: 1.5rem;">
+        <div class="form-head">🚖 Attached Lobby Fleet Status</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem;" id="jeep-fleet-grid"></div>
+      </div>
+
+      <!-- Movement Form -->
+      <div class="form-card">
+        <div class="form-head">📝 Record Jeep Movement (गाड़ी रवानगी / वापसी प्रविष्टि)</div>
+        <form onsubmit="handleJeepSubmit(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Select Vehicle *</label>
+              <select class="form-control" id="jeep-vehicle" onchange="autoFillDriver(this.value)">
+                <option value="CG-13-UD-0101 (Bolero)">CG-13-UD-0101 (Bolero)</option>
+                <option value="CG-13-UD-0102 (Cruiser)">CG-13-UD-0102 (Cruiser)</option>
+                <option value="CG-13-UE-0205 (Bolero)">CG-13-UE-0205 (Bolero)</option>
+                <option value="OD-16-A-5432 (Camper)">OD-16-A-5432 (Camper)</option>
+                <option value="CG-13-UF-0331 (Bolero)">CG-13-UF-0331 (Bolero)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Driver Name *</label>
+              <input type="text" class="form-control" id="jeep-driver" placeholder="Driver Name" required>
+            </div>
+            <div class="form-group">
+              <label>Driver Mobile</label>
+              <input type="tel" class="form-control" id="jeep-driver-phone" placeholder="Phone Number">
+            </div>
+            <div class="form-group">
+              <label>Destination / Section *</label>
+              <input type="text" class="form-control" id="jeep-destination" placeholder="e.g. Robertson (ROB) / Raigarh" required>
+            </div>
+            <div class="form-group">
+              <label>Movement Purpose *</label>
+              <select class="form-control" id="jeep-purpose">
+                <option value="Crew Relief on Line">Crew Relief on Line</option>
+                <option value="Bringing Relieved Crew to Lobby">Bringing Relieved Crew to Lobby</option>
+                <option value="Emergency Breakdown Relief">Emergency Breakdown Relief</option>
+                <option value="Station Duty / Siding Movement">Station Duty / Siding Movement</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Departure Odo Meter (KM)</label>
+              <input type="number" class="form-control" id="jeep-meter-out" placeholder="e.g. 54210">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.85rem;">🚙 Log Movement</button>
+        </form>
+      </div>
+
+      <!-- Movement Trips -->
+      <div class="table-card">
+        <div class="table-top">
+          <div class="table-title">Jeep Movement Log (गाड़ी ट्रिप हिस्ट्री)</div>
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Vehicle No.</th>
+                <th>Driver</th>
+                <th>Destination</th>
+                <th>Purpose</th>
+                <th>Departure Time</th>
+                <th>Meter</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="jeep-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- MODULE VIEW: SHIFT ROSTER & TLC                                -->
+    <!-- ============================================================== -->
+    <div id="view-roster" class="screen-view">
+      <div class="view-top-bar">
+        <div class="view-title-group">
+          <h2>🗓️ Shift-Wise Crew Roster & TLC Portal</h2>
+          <p>Traction Loco Controller (TLC BSP) Operations & Kharsia Lobby 3-Shift Desk</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="navigate('menu')">&larr; Back to Menu</button>
+      </div>
+
+      <!-- 3 Shifts Overview Cards -->
+      <div class="metrics-grid">
+        <div class="metric-card" style="border-left: 4px solid var(--blue);">
+          <div class="metric-icon" style="background: rgba(56, 189, 248, 0.15); color: var(--blue);">🌙</div>
+          <div class="metric-data">
+            <h4>Shift 1 (00:00 - 08:00)</h4>
+            <div class="num" style="font-size: 1.15rem; color: #ffffff;">Night Shift Desk</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">CC In-Charge: L.K. Sahu</div>
+          </div>
+        </div>
+        <div class="metric-card" style="border-left: 4px solid var(--gold);">
+          <div class="metric-icon" style="background: rgba(245, 158, 11, 0.15); color: var(--gold);">☀️</div>
+          <div class="metric-data">
+            <h4>Shift 2 (08:00 - 16:00)</h4>
+            <div class="num" style="font-size: 1.15rem; color: #ffffff;">Day Shift Desk</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">CC In-Charge: V.K. Chandra</div>
+          </div>
+        </div>
+        <div class="metric-card" style="border-left: 4px solid var(--purple);">
+          <div class="metric-icon" style="background: rgba(168, 85, 247, 0.15); color: var(--purple);">🌆</div>
+          <div class="metric-data">
+            <h4>Shift 3 (16:00 - 24:00)</h4>
+            <div class="num" style="font-size: 1.15rem; color: #ffffff;">Evening Shift Desk</div>
+            <div style="font-size: 0.8rem; color: var(--text-muted);">CC In-Charge: Duty Supervisor</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TLC Quick Dial Directory -->
+      <div class="form-card" style="margin-bottom: 2rem;">
+        <div class="form-head">📞 24x7 Traction Loco Controller (TLC BSP) Direct Lines</div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+          <div style="background: var(--surface-elevated); padding: 1rem; border-radius: 10px; border: 1px solid var(--border);">
+            <div style="font-weight: 700; color: #ffffff;">TLC Bilaspur (Main Desk)</div>
+            <div style="font-size: 0.85rem; color: var(--gold); margin: 0.2rem 0;">Traction Loco Control BSP</div>
+            <div style="font-size: 1.1rem; font-family: var(--font-mono); color: var(--green); font-weight: 700;">9752442111 / 9752441935</div>
+          </div>
+          <div style="background: var(--surface-elevated); padding: 1rem; border-radius: 10px; border: 1px solid var(--border);">
+            <div style="font-weight: 700; color: #ffffff;">TLC Emergency Desk (BSP)</div>
+            <div style="font-size: 0.85rem; color: var(--gold); margin: 0.2rem 0;">24x7 Power Breakdown Assistance</div>
+            <div style="font-size: 1.1rem; font-family: var(--font-mono); color: var(--green); font-weight: 700;">9981050115 / 9752442115</div>
+          </div>
+          <div style="background: var(--surface-elevated); padding: 1rem; border-radius: 10px; border: 1px solid var(--border);">
+            <div style="font-weight: 700; color: #ffffff;">Kharsia Lobby Landline</div>
+            <div style="font-size: 0.85rem; color: var(--gold); margin: 0.2rem 0;">Master Control Desk</div>
+            <div style="font-size: 1.1rem; font-family: var(--font-mono); color: var(--green); font-weight: 700;">07766-276100 (Ext: 58820)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================== -->
+    <!-- MODULE VIEW: LR DECLARATION                                    -->
+    <!-- ============================================================== -->
+    <div id="view-lr" class="screen-view">
+      <div class="view-top-bar">
+        <div class="view-title-group">
+          <h2>🛣️ Learning Road (LR) Declaration Portal</h2>
+          <p>Loco Pilot Route Learning Road Section Declarations & Validity Management</p>
+        </div>
+        <button class="btn btn-outline btn-sm" onclick="navigate('menu')">&larr; Back to Menu</button>
+      </div>
+
+      <!-- Add LR Form -->
+      <div class="form-card">
+        <div class="form-head">✍️ Submit LR Declaration (एल.आर घोषणा दर्ज करें)</div>
+        <form onsubmit="handleLrSubmit(event)">
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Crew CMS ID *</label>
+              <input type="text" class="form-control" id="lr-crew-id" placeholder="e.g. KHS1012" required>
+            </div>
+            <div class="form-group">
+              <label>Crew Name *</label>
+              <input type="text" class="form-control" id="lr-crew-name" placeholder="Full Name" required>
+            </div>
+            <div class="form-group">
+              <label>Designation</label>
+              <select class="form-control" id="lr-designation">
+                <option value="Loco Pilot (Goods)">Loco Pilot (Goods)</option>
+                <option value="Assistant Loco Pilot">Assistant Loco Pilot</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Route / Section *</label>
+              <select class="form-control" id="lr-section">
+                <option value="Kharsia (KHS) – Raigarh (RIG) 3rd Line">Kharsia (KHS) – Raigarh (RIG) 3rd Line</option>
+                <option value="Kharsia (KHS) – Champa (CPH) – Bilaspur (BSP)">Kharsia (KHS) – Champa (CPH) – Bilaspur (BSP)</option>
+                <option value="Champa (CPH) – Gevra Road (GAD) / Korba">Champa (CPH) – Gevra Road (GAD) / Korba</option>
+                <option value="Bilaspur (BSP) – Anuppur – Shahdol (SDL)">Bilaspur (BSP) – Anuppur – Shahdol (SDL)</option>
+                <option value="Kharsia (KHS) – Dharamjaigarh (CERL)">Kharsia (KHS) – Dharamjaigarh (CERL Coal Line)</option>
+                <option value="Raigarh (RIG) – Brajrajnagar (BRJN) – Jharsuguda">Raigarh (RIG) – Brajrajnagar (BRJN) – Jharsuguda</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Date of Last Trip In Section *</label>
+              <input type="date" class="form-control" id="lr-last-trip" required>
+            </div>
+            <div class="form-group">
+              <label>Trip Type Handled</label>
+              <select class="form-control" id="lr-trip-type">
+                <option value="Day & Night Trip Both">Day & Night Trip Both</option>
+                <option value="Day Trip Only">Day Trip Only</option>
+                <option value="Night Trip Only">Night Trip Only</option>
+              </select>
+            </div>
+          </div>
+          <div style="margin-top: 0.85rem; display: flex; align-items: center; gap: 0.5rem;">
+            <input type="checkbox" id="lr-check" required style="width: 18px; height: 18px; accent-color: var(--gold);">
+            <label for="lr-check" style="font-size: 0.85rem; color: var(--text-muted); cursor: pointer;">
+              I hereby declare that I have thorough road knowledge and signals of the above route according to SECR Operating Rules.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary" style="margin-top: 0.85rem;">💾 Submit LR Declaration</button>
+        </form>
+      </div>
+
+      <!-- LR Declarations Table -->
+      <div class="table-card">
+        <div class="table-top">
+          <div class="table-title">Submitted LR Declarations (एल.आर घोषणा रजिस्टर)</div>
+        </div>
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>CMS ID</th>
+                <th>Crew Name</th>
+                <th>Route / Section</th>
+                <th>Last Trip Date</th>
+                <th>Trip Type</th>
+                <th>Valid Till</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody id="lr-table-body"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toastMessage"></div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>SOUTH EAST CENTRAL RAILWAY • BILASPUR DIVISION • KHARSIA LOBBY</div>
+      <div style="margin-top: 0.35rem;">
+        Digital Operations Portal & Android APK Repository.
+        Designed for SECR Running Staff, Chief Loco Inspectors & Crew Controllers.
+      </div>
+      <div style="margin-top: 0.6rem; color: #475569; font-size: 0.78rem;">
+        Synchronized with GitHub Repository &bull; Ready for GitHub Pages deployment.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script>
+    // Live Clock & Shift
+    function updateClock() {
+      const now = new Date();
+      const timeStr = now.toLocaleTimeString('en-IN', { hour12: false });
+      const hours = now.getHours();
+
+      let shift = "Shift 1 (00:00 - 08:00)";
+      if (hours >= 8 && hours < 16) shift = "Shift 2 (08:00 - 16:00)";
+      else if (hours >= 16) shift = "Shift 3 (16:00 - 24:00)";
+
+      const clockEl = document.getElementById('clockDisplay');
+      const shiftEl = document.getElementById('shiftDisplay');
+      if (clockEl) clockEl.textContent = timeStr;
+      if (shiftEl) shiftEl.textContent = shift;
+    }
+    setInterval(updateClock, 1000);
+    updateClock();
+
+    // Toast Helper
+    function showToast(msg) {
+      const t = document.getElementById('toastMessage');
+      if (!t) return;
+      t.textContent = msg;
+      t.style.display = 'block';
+      setTimeout(() => { t.style.display = 'none'; }, 3500);
+    }
+
+    // Local Storage Wrapper
+    const DB = {
+      get: (k, def) => {
+        try {
+          const v = localStorage.getItem(`kharsia_${k}`);
+          return v ? JSON.parse(v) : def;
+        } catch(e) { return def; }
+      },
+      set: (k, v) => {
+        try { localStorage.setItem(`kharsia_${k}`, JSON.stringify(v)); } catch(e) {}
+      }
+    };
+
+    // Current Session
+    let currentUser = DB.get('user', null);
+
+    // Initial Data
+    let registeredUsers = DB.get('registered_users', [
+      { id: 'KHS1001', name: 'A K PRIYADARSHI', mobile: '9752425843', desig: 'Loco Pilot (Goods)', role: 'CREW' },
+      { id: 'KHS1004', name: 'ABHISHEK KUMAR', mobile: '7024219230', desig: 'Loco Pilot (Goods)', role: 'CREW' },
+      { id: 'KHS_ADMIN', name: 'Chief Crew Controller', mobile: '9752442786', desig: 'CCC In-Charge', role: 'ADMIN' }
+    ]);
+
+    let prList = DB.get('prs', [
+      { id: 'PR-101', crewId: 'KHS1004', crewName: 'ABHISHEK KUMAR', designation: 'Loco Pilot (Goods)', signoff: '2026-09-28 04:30', duration: '30 Hours', mobile: '7024219230', remarks: 'Relieved from N-BSP BOXN', status: 'Pending' },
+      { id: 'PR-102', crewId: 'KHS1012', crewName: 'ANJANI KUMAR', designation: 'Loco Pilot (Goods)', signoff: '2026-09-27 22:15', duration: '40 Hours', mobile: '7024149583', remarks: 'Completed weekly trip', status: 'Approved' },
+      { id: 'PR-103', crewId: 'BSP1022', crewName: 'M.P. SAHU', designation: 'Assistant Loco Pilot', signoff: '2026-09-28 06:00', duration: '30 Hours', mobile: '9752442189', remarks: 'Relieved at Kharsia', status: 'Pending' }
+    ]);
+
+    let storeList = DB.get('stores', [
+      { id: 'ST-01', serial: 'WT-KHS-014', item: 'Walkie-Talkie (VHF Set)', crewId: 'KHS1008', crewName: 'AJAY KUMAR', train: '12834 Express', time: '2026-09-28 05:45', issuedBy: 'CC Desk', status: 'ISSUED' },
+      { id: 'ST-02', serial: 'TC-KHS-022', item: 'Tri-Color LED Torch', crewId: 'KHS1015', crewName: 'ARVIND KUMAR', train: 'BOXN N-RIG', time: '2026-09-28 06:10', issuedBy: 'CC Desk', status: 'ISSUED' },
+      { id: 'ST-03', serial: 'TL-KHS-007', item: 'Loco Flasher / Tail Lamp', crewId: 'BSP1044', crewName: 'SUNIL KUMAR PATEL', train: 'DN Goods', time: '2026-09-28 03:20', issuedBy: 'CC Desk', status: 'ISSUED' }
+    ]);
+
+    let lhList = DB.get('lhs', [
+      { id: 'LH-01', train: 'BOXN / N-RIG', loco: 'WAG9-31245', crewId: 'KHS1019', crewName: 'AYODHYA PRASAD', signon: '2026-09-27 18:30', section: 'Robertson (ROB) Siding', reason: 'Precedence to Coaching Trains', reliefStatus: 'Relief Required Urgently', hours: 11.5 },
+      { id: 'LH-02', train: 'BCN / E-BSP', loco: 'WAG9-32401', crewId: 'BSP1018', crewName: 'RAJESH KUMAR', signon: '2026-09-27 16:00', section: 'Champa Outer', reason: 'Track Maintenance Block', reliefStatus: 'Relief Crew Dispatched by Jeep', hours: 14.0 }
+    ]);
+
+    let jeepList = DB.get('jeeps', [
+      { plate: 'CG-13-UD-0101', model: 'Mahindra Bolero', driver: 'Rajendra Patel', phone: '6265395782', status: 'Available' },
+      { plate: 'CG-13-UD-0102', model: 'Cruiser Trax', driver: 'Deepak Sahu', phone: '8817361305', status: 'On Trip (ROB)' },
+      { plate: 'CG-13-UE-0205', model: 'Mahindra Bolero', driver: 'Sagar', phone: '9770612511', status: 'Available' },
+      { plate: 'OD-16-A-5432', model: 'Bolero Camper', driver: 'Bhag Singh', phone: '9081175369', status: 'Available' },
+      { plate: 'CG-13-UF-0331', model: 'Mahindra Bolero', driver: 'Dilip Kumar', phone: '8817842929', status: 'On Trip (RIG)' },
+      { plate: 'CG-13-UE-0412', model: 'Bolero Neo', driver: 'Pappu Chouhan', phone: '7999810631', status: 'Available' }
+    ]);
+
+    let lrList = DB.get('lrs', [
+      { id: 'LR-01', crewId: 'KHS1001', crewName: 'A K PRIYADARSHI', section: 'Kharsia (KHS) – Raigarh (RIG) 3rd Line', lastTrip: '2026-09-20', tripType: 'Day & Night Trip Both', validTill: '2026-12-20', status: 'VALID' },
+      { id: 'LR-02', crewId: 'KHS1008', crewName: 'AJAY KUMAR', section: 'Kharsia (KHS) – Dharamjaigarh (CERL Coal Line)', lastTrip: '2026-09-15', tripType: 'Day & Night Trip Both', validTill: '2026-12-15', status: 'VALID' }
+    ]);
+
+    // Navigation Router
+    function hideAllScreens() {
+      document.querySelectorAll('.screen-view').forEach(s => s.classList.remove('active'));
+    }
+
+    function navigate(dest) {
+      hideAllScreens();
+      if (!currentUser && dest !== 'welcome' && dest !== 'auth') {
+        showAuth('login');
+        return;
+      }
+
+      if (dest === 'home' || dest === 'welcome') {
+        if (currentUser) {
+          document.getElementById('screen-main-menu').classList.add('active');
+          updateMenuStats();
+        } else {
+          document.getElementById('screen-welcome').classList.add('active');
+        }
+      } else if (dest === 'menu') {
+        document.getElementById('screen-main-menu').classList.add('active');
+        updateMenuStats();
+      } else {
+        const target = document.getElementById(`view-${dest}`);
+        if (target) target.classList.add('active');
+      }
+      window.scrollTo(0, 0);
+    }
+
+    function showAuth(tab) {
+      hideAllScreens();
+      document.getElementById('screen-auth').classList.add('active');
+      switchAuthTab(tab);
+      window.scrollTo(0, 0);
+    }
+
+    function switchAuthTab(tab) {
+      const isLogin = tab === 'login';
+      document.getElementById('btn-tab-login').classList.toggle('active', isLogin);
+      document.getElementById('btn-tab-register').classList.toggle('active', !isLogin);
+      document.getElementById('form-login').style.display = isLogin ? 'block' : 'none';
+      document.getElementById('form-register').style.display = !isLogin ? 'block' : 'none';
+    }
+
+    // Auth Handlers
+    function handleLoginSubmit(e) {
+      e.preventDefault();
+      const idInput = document.getElementById('login-id').value.trim().toUpperCase();
+      const passInput = document.getElementById('login-password').value.trim();
+
+      // Check admin credentials
+      if ((idInput === 'KHS_ADMIN' || idInput === 'ADMIN') && passInput.length >= 4) {
+        currentUser = { id: 'KHS_ADMIN', name: 'Chief Crew Controller', role: 'ADMIN' };
+      } else {
+        // Find registered user or allow valid crew format
+        const found = registeredUsers.find(u => u.id.toUpperCase() === idInput || u.mobile === idInput);
+        if (found) {
+          currentUser = { ...found, role: found.role || 'CREW' };
+        } else if (idInput.length >= 4 && passInput.length >= 4) {
+          // Auto-login active crew
+          currentUser = { id: idInput, name: idInput, role: 'CREW' };
+          registeredUsers.push(currentUser);
+          DB.set('registered_users', registeredUsers);
+        } else {
+          alert('Please enter valid Crew CMS ID (e.g. KHS1001) and password/PIN.');
+          return;
+        }
+      }
+
+      DB.set('user', currentUser);
+      updateHeaderUser();
+      showToast(`Welcome ${currentUser.name || currentUser.id}!`);
+      navigate('menu');
+    }
+
+    function handleRegisterSubmit(e) {
+      e.preventDefault();
+      const id = document.getElementById('reg-id').value.trim().toUpperCase();
+      const name = document.getElementById('reg-name').value.trim().toUpperCase();
+      const desig = document.getElementById('reg-desig').value;
+      const mobile = document.getElementById('reg-mobile').value.trim();
+      const pass = document.getElementById('reg-password').value.trim();
+
+      const newUser = { id, name, desig, mobile, role: 'CREW' };
+      registeredUsers.push(newUser);
+      DB.set('registered_users', registeredUsers);
+
+      currentUser = newUser;
+      DB.set('user', currentUser);
+      updateHeaderUser();
+
+      showToast(`Registration completed! Welcome ${name}.`);
+      navigate('menu');
+    }
+
+    function handleLogout() {
+      currentUser = null;
+      DB.set('user', null);
+      updateHeaderUser();
+      showToast('Signed out successfully.');
+      navigate('welcome');
+    }
+
+    function updateHeaderUser() {
+      const guestGroup = document.getElementById('header-guest-actions');
+      const userGroup = document.getElementById('header-user-actions');
+
+      if (currentUser) {
+        guestGroup.style.display = 'none';
+        userGroup.style.display = 'flex';
+        document.getElementById('header-user-name').textContent = currentUser.name || currentUser.id;
+        document.getElementById('header-user-badge').textContent = currentUser.role || 'CREW';
+      } else {
+        guestGroup.style.display = 'flex';
+        userGroup.style.display = 'none';
+      }
+    }
+
+    function checkCrewIdMatch(val) {
+      const badge = document.getElementById('reg-crew-match');
+      const nameInput = document.getElementById('reg-name');
+      const clean = val.trim().toUpperCase();
+      if (clean.length >= 4) {
+        badge.textContent = `✓ Recognized SECR Crew CMS ID format (${clean})`;
+      } else {
+        badge.textContent = '';
+      }
+    }
+
+    // Refresh KPI counts on main menu
+    function updateMenuStats() {
+      document.getElementById('menu-stat-pr').textContent = prList.filter(p => p.status === 'Pending').length;
+      document.getElementById('menu-stat-store').textContent = storeList.filter(s => s.status === 'ISSUED').length;
+      document.getElementById('menu-stat-lh').textContent = lhList.length;
+      document.getElementById('menu-stat-jeep').textContent = jeepList.filter(j => j.status === 'Available').length;
+    }
+
+    // ==========================================
+    // PR TABLE & ACTIONS
+    // ==========================================
+    function renderPrTable(q = '') {
+      const tbody = document.getElementById('pr-table-body');
+      if (!tbody) return;
+      const query = (q || '').trim().toLowerCase();
+
+      const filtered = prList.filter(p => 
+        !query || p.crewId.toLowerCase().includes(query) || p.crewName.toLowerCase().includes(query)
+      );
+
+      tbody.innerHTML = filtered.length ? filtered.map(p => `
+        <tr>
+          <td><span class="badge badge-gold">${p.crewId}</span></td>
+          <td><strong>${p.crewName}</strong></td>
+          <td><span style="font-size:0.8rem; color:#94a3b8;">${p.designation}</span></td>
+          <td>${p.signoff}</td>
+          <td><span class="badge badge-blue">${p.duration}</span></td>
+          <td><a href="tel:${p.mobile}" style="color:var(--green); text-decoration:none; font-weight:600;">📞 ${p.mobile}</a></td>
+          <td>${p.remarks || '-'}</td>
+          <td>
+            <span class="badge ${p.status === 'Approved' ? 'badge-green' : 'badge-gold'}">${p.status}</span>
+          </td>
+          <td>
+            ${p.status === 'Pending' ? 
+              `<button class="btn btn-outline btn-sm" onclick="approvePr('${p.id}')">Approve</button>` : 
+              `<span style="color:var(--green); font-size:0.8rem;">✓ Approved</span>`
+            }
+          </td>
+        </tr>
+      `).join('') : `<tr><td colspan="9" style="text-align:center; padding:1.5rem; color:var(--text-dim);">No PR entries found.</td></tr>`;
+    }
+
+    function handlePrSubmit(e) {
+      e.preventDefault();
+      const newPr = {
+        id: 'PR-' + Date.now().toString().slice(-4),
+        crewId: document.getElementById('pr-crew-id').value.trim().toUpperCase(),
+        crewName: document.getElementById('pr-crew-name').value.trim().toUpperCase(),
+        designation: document.getElementById('pr-designation').value,
+        signoff: document.getElementById('pr-signoff-time').value.replace('T', ' '),
+        duration: document.getElementById('pr-duration').value,
+        mobile: document.getElementById('pr-mobile').value.trim() || '9752400000',
+        remarks: document.getElementById('pr-remarks').value.trim(),
+        status: 'Pending'
+      };
+      prList.unshift(newPr);
+      DB.set('prs', prList);
+      renderPrTable();
+      updateMenuStats();
+      e.target.reset();
+      showToast(`Periodical Rest remark registered for ${newPr.crewName} (${newPr.crewId})!`);
+    }
+
+    function approvePr(id) {
+      prList = prList.map(p => p.id === id ? { ...p, status: 'Approved' } : p);
+      DB.set('prs', prList);
+      renderPrTable();
+      updateMenuStats();
+      showToast('Periodical Rest remark approved.');
+    }
+
+    // ==========================================
+    // STORE TABLE & ACTIONS
+    // ==========================================
+    function renderStoreTable(q = '') {
+      const tbody = document.getElementById('store-table-body');
+      if (!tbody) return;
+      const query = (q || '').trim().toLowerCase();
+
+      const filtered = storeList.filter(s => 
+        !query || s.serial.toLowerCase().includes(query) || s.crewName.toLowerCase().includes(query) || s.item.toLowerCase().includes(query)
+      );
+
+      tbody.innerHTML = filtered.length ? filtered.map(s => `
+        <tr>
+          <td><span class="badge badge-gold">${s.serial}</span></td>
+          <td><strong>${s.item}</strong></td>
+          <td>${s.crewName} (${s.crewId})</td>
+          <td>${s.train || '-'}</td>
+          <td>${s.time}</td>
+          <td>${s.issuedBy}</td>
+          <td><span class="badge ${s.status === 'ISSUED' ? 'badge-gold' : 'badge-green'}">${s.status}</span></td>
+          <td>
+            ${s.status === 'ISSUED' ? 
+              `<button class="btn btn-outline btn-sm" onclick="returnStore('${s.id}')">Return</button>` : 
+              `<span style="color:var(--green); font-size:0.8rem;">Returned</span>`
+            }
+          </td>
+        </tr>
+      `).join('') : `<tr><td colspan="8" style="text-align:center; padding:1.5rem; color:var(--text-dim);">No active store items.</td></tr>`;
+    }
+
+    function handleStoreIssue(e) {
+      e.preventDefault();
+      const nowStr = new Date().toISOString().slice(0,16).replace('T', ' ');
+      const newStore = {
+        id: 'ST-' + Date.now().toString().slice(-4),
+        serial: document.getElementById('store-serial').value.trim().toUpperCase(),
+        item: document.getElementById('store-item-type').value,
+        crewId: document.getElementById('store-crew-id').value.trim().toUpperCase(),
+        crewName: document.getElementById('store-crew-name').value.trim().toUpperCase(),
+        train: document.getElementById('store-train').value.trim(),
+        time: nowStr,
+        issuedBy: document.getElementById('store-issued-by').value.trim(),
+        status: 'ISSUED'
+      };
+      storeList.unshift(newStore);
+      DB.set('stores', storeList);
+      renderStoreTable();
+      updateMenuStats();
+      e.target.reset();
+      showToast(`Equipment ${newStore.item} issued to ${newStore.crewName}!`);
+    }
+
+    function returnStore(id) {
+      storeList = storeList.map(s => s.id === id ? { ...s, status: 'RETURNED' } : s);
+      DB.set('stores', storeList);
+      renderStoreTable();
+      updateMenuStats();
+      showToast('Equipment returned to lobby inventory.');
+    }
+
+    // ==========================================
+    // LONG HOUR TABLE & ACTIONS
+    // ==========================================
+    function renderLhTable(q = '') {
+      const tbody = document.getElementById('lh-table-body');
+      if (!tbody) return;
+      const query = (q || '').trim().toLowerCase();
+
+      const filtered = lhList.filter(l => 
+        !query || l.train.toLowerCase().includes(query) || l.crewName.toLowerCase().includes(query)
+      );
+
+      tbody.innerHTML = filtered.length ? filtered.map(l => {
+        const isCritical = (l.hours || 0) >= 12;
+        return `
+          <tr>
+            <td><strong>${l.train}</strong><br><small style="color:var(--text-dim);">${l.loco || '-'}</small></td>
+            <td>${l.crewName} (${l.crewId})</td>
+            <td>${l.signon}</td>
+            <td><span class="badge ${isCritical ? 'badge-red' : 'badge-gold'}">${l.hours ? l.hours + ' hrs' : '>9 hrs'}</span></td>
+            <td>${l.section}</td>
+            <td>${l.reason}</td>
+            <td><span class="badge badge-blue">${l.reliefStatus}</span></td>
+            <td>
+              <button class="btn btn-outline btn-sm" onclick="resolveLh('${l.id}')">Relieved</button>
+            </td>
+          </tr>
+        `;
+      }).join('') : `<tr><td colspan="8" style="text-align:center; padding:1.5rem; color:var(--text-dim);">No active long hour duties.</td></tr>`;
+
+      document.getElementById('lh-stat-12').textContent = lhList.filter(l => (l.hours || 0) >= 12).length;
+      document.getElementById('lh-stat-9').textContent = lhList.filter(l => (l.hours || 0) >= 9 && (l.hours || 0) < 12).length;
+      document.getElementById('lh-stat-relief').textContent = lhList.filter(l => l.reliefStatus.includes('Dispatched')).length;
+    }
+
+    function handleLhSubmit(e) {
+      e.preventDefault();
+      const signonVal = document.getElementById('lh-signon-time').value;
+      const signonDate = new Date(signonVal);
+      const now = new Date();
+      const diffHours = Math.max(9.0, Math.round(((now - signonDate) / (1000 * 60 * 60)) * 10) / 10);
+
+      const newLh = {
+        id: 'LH-' + Date.now().toString().slice(-4),
+        train: document.getElementById('lh-train').value.trim().toUpperCase(),
+        loco: document.getElementById('lh-loco').value.trim().toUpperCase(),
+        crewId: document.getElementById('lh-crew-id').value.trim().toUpperCase(),
+        crewName: document.getElementById('lh-crew-name').value.trim().toUpperCase(),
+        signon: signonVal.replace('T', ' '),
+        section: document.getElementById('lh-section').value.trim(),
+        reason: document.getElementById('lh-reason').value,
+        reliefStatus: document.getElementById('lh-relief-status').value,
+        hours: diffHours
+      };
+      lhList.unshift(newLh);
+      DB.set('lhs', lhList);
+      renderLhTable();
+      updateMenuStats();
+      e.target.reset();
+      showToast(`Long Hour duty alert recorded for Train ${newLh.train}!`);
+    }
+
+    function resolveLh(id) {
+      lhList = lhList.filter(l => l.id !== id);
+      DB.set('lhs', lhList);
+      renderLhTable();
+      updateMenuStats();
+      showToast('Crew relieved successfully.');
+    }
+
+    // ==========================================
+    // JEEP FLEET & TRIPS
+    // ==========================================
+    function renderJeeps() {
+      const grid = document.getElementById('jeep-fleet-grid');
+      if (grid) {
+        grid.innerHTML = jeepList.map(j => `
+          <div style="background:var(--surface-elevated); border:1px solid var(--border); padding:1rem; border-radius:10px; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <div style="font-weight:800; color:#ffffff; font-family:var(--font-mono);">${j.plate}</div>
+              <div style="font-size:0.8rem; color:var(--text-muted);">${j.model} • ${j.driver}</div>
+              <a href="tel:${j.phone}" style="font-size:0.8rem; color:var(--green); text-decoration:none; font-weight:600;">📞 ${j.phone}</a>
+            </div>
+            <span class="badge ${j.status === 'Available' ? 'badge-green' : 'badge-gold'}">${j.status}</span>
+          </div>
+        `).join('');
+      }
+
+      const tbody = document.getElementById('jeep-table-body');
+      const tripHistory = DB.get('jeep_trips', [
+        { plate: 'CG-13-UD-0102', driver: 'Deepak Sahu', dest: 'Robertson (ROB)', purpose: 'Crew Relief on Line', time: '2026-09-28 05:30', meter: '54210', status: 'ON ROAD' }
+      ]);
+      if (tbody) {
+        tbody.innerHTML = tripHistory.map(t => `
+          <tr>
+            <td><strong>${t.plate}</strong></td>
+            <td>${t.driver}</td>
+            <td>${t.dest}</td>
+            <td>${t.purpose}</td>
+            <td>${t.time}</td>
+            <td>${t.meter} KM</td>
+            <td><span class="badge badge-gold">${t.status}</span></td>
+            <td><button class="btn btn-outline btn-sm" onclick="completeJeepTrip('${t.plate}')">Returned</button></td>
+          </tr>
+        `).join('');
+      }
+    }
+
+    function handleJeepSubmit(e) {
+      e.preventDefault();
+      const trips = DB.get('jeep_trips', []);
+      const newTrip = {
+        plate: document.getElementById('jeep-vehicle').value,
+        driver: document.getElementById('jeep-driver').value.trim(),
+        dest: document.getElementById('jeep-destination').value.trim(),
+        purpose: document.getElementById('jeep-purpose').value,
+        time: new Date().toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' }),
+        meter: document.getElementById('jeep-meter-out').value || '54250',
+        status: 'ON ROAD'
+      };
+      trips.unshift(newTrip);
+      DB.set('jeep_trips', trips);
+
+      jeepList = jeepList.map(j => j.plate.includes(newTrip.plate.slice(0,13)) ? { ...j, status: `On Trip (${newTrip.dest})` } : j);
+      DB.set('jeeps', jeepList);
+
+      renderJeeps();
+      updateMenuStats();
+      e.target.reset();
+      showToast(`Jeep movement logged for ${newTrip.plate}!`);
+    }
+
+    function completeJeepTrip(plate) {
+      let trips = DB.get('jeep_trips', []);
+      trips = trips.filter(t => t.plate !== plate);
+      DB.set('jeep_trips', trips);
+
+      jeepList = jeepList.map(j => j.plate.includes(plate.slice(0,13)) ? { ...j, status: 'Available' } : j);
+      DB.set('jeeps', jeepList);
+      renderJeeps();
+      updateMenuStats();
+      showToast('Jeep marked back at lobby.');
+    }
+
+    function autoFillDriver(vehicleVal) {
+      const found = jeepList.find(j => vehicleVal.includes(j.plate));
+      if (found) {
+        document.getElementById('jeep-driver').value = found.driver;
+        document.getElementById('jeep-driver-phone').value = found.phone;
+      }
+    }
+
+    // ==========================================
+    // LR DECLARATION
+    // ==========================================
+    function renderLrTable() {
+      const tbody = document.getElementById('lr-table-body');
+      if (!tbody) return;
+      tbody.innerHTML = lrList.map(l => `
+        <tr>
+          <td><span class="badge badge-gold">${l.crewId}</span></td>
+          <td><strong>${l.crewName}</strong></td>
+          <td>${l.section}</td>
+          <td>${l.lastTrip}</td>
+          <td><span class="badge badge-blue">${l.tripType}</span></td>
+          <td>${l.validTill}</td>
+          <td><span class="badge badge-green">${l.status}</span></td>
+        </tr>
+      `).join('');
+    }
+
+    function handleLrSubmit(e) {
+      e.preventDefault();
+      const lastTripDate = new Date(document.getElementById('lr-last-trip').value);
+      const validTillDate = new Date(lastTripDate);
+      validTillDate.setMonth(validTillDate.getMonth() + 3);
+
+      const newLr = {
+        id: 'LR-' + Date.now().toString().slice(-4),
+        crewId: document.getElementById('lr-crew-id').value.trim().toUpperCase(),
+        crewName: document.getElementById('lr-crew-name').value.trim().toUpperCase(),
+        section: document.getElementById('lr-section').value,
+        lastTrip: document.getElementById('lr-last-trip').value,
+        tripType: document.getElementById('lr-trip-type').value,
+        validTill: validTillDate.toISOString().slice(0, 10),
+        status: 'VALID'
+      };
+      lrList.unshift(newLr);
+      DB.set('lrs', lrList);
+      renderLrTable();
+      e.target.reset();
+      showToast(`LR Declaration submitted for ${newLr.crewName}!`);
+    }
+
+    // Startup Initialization
+    window.addEventListener('DOMContentLoaded', () => {
+      updateHeaderUser();
+      renderPrTable();
+      renderStoreTable();
+      renderLhTable();
+      renderJeeps();
+      renderLrTable();
+      updateMenuStats();
+
+      // If user already logged in from previous session, go straight to Main Menu
+      if (currentUser) {
+        navigate('menu');
+      } else {
+        navigate('welcome');
+      }
+
+      // Default date fields
+      const nowIso = new Date().toISOString().slice(0,16);
+      if (document.getElementById('pr-signoff-time')) document.getElementById('pr-signoff-time').value = nowIso;
+      if (document.getElementById('lh-signon-time')) document.getElementById('lh-signon-time').value = nowIso;
+      if (document.getElementById('lr-last-trip')) document.getElementById('lr-last-trip').value = new Date().toISOString().slice(0,10);
+    });
+  </script>
+</body>
+</html>

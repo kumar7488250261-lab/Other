@@ -1,0 +1,2585 @@
+[
+  {
+    "crewId": "KHS1001",
+    "name": "ROHIT KU KURRE",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1003",
+    "name": "SHANKAR LAL SIDAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1004",
+    "name": "V.K.CHANDRA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1006",
+    "name": "RAKESH KR.RAJAK",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1008",
+    "name": "NITISH KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1019",
+    "name": "VED PRAKASH SAHU",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1020",
+    "name": "VIDYASAGAR KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1030",
+    "name": "UTKAL BHUSAN BARIK",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1046",
+    "name": "D.P. CHANDRA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1063",
+    "name": "SANTOSH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1065",
+    "name": "SUNEEL KUMAR SAHU",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1077",
+    "name": "VIMLESH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1078",
+    "name": "RAJNISH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1084",
+    "name": "UDAYNARAYAN SAHU",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1087",
+    "name": "JAY PRAKASH SHARMA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1096",
+    "name": "AMIT KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1102",
+    "name": "BHANU PRAKASH",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1103",
+    "name": "RANDHIR KUMAR SINGH",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1104",
+    "name": "DILIP KUMAR YADAV",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1106",
+    "name": "RAHUL KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1107",
+    "name": "RANJIT KUMAR DAS",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1109",
+    "name": "MUKESH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1110",
+    "name": "ABHAY KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1114",
+    "name": "H S SAHU",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1115",
+    "name": "AMIT KU URAON",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1118",
+    "name": "RUP RAM PATEL",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1119",
+    "name": "BAL KRISHNA CHOUHAN",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1120",
+    "name": "KALESHWAR ORAON",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1121",
+    "name": "MD.TAWREJ",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1126",
+    "name": "BHARAT LAL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1127",
+    "name": "HARISH PRASAD KARSH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1128",
+    "name": "A K PRIYADARSHI",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1129",
+    "name": "VIKAS BHAGAT",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1135",
+    "name": "VIRENDRA KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1136",
+    "name": "AKHILESH DANSENA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1138",
+    "name": "MRITUNJAY MARAL",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1139",
+    "name": "KUNDAN PRASAD",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1140",
+    "name": "OM PRAKASH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1141",
+    "name": "RAVINDRA KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1156",
+    "name": "DEVENDRA KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1158",
+    "name": "KESHAV PRASAD SAHU",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1159",
+    "name": "DHANANJAY KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1161",
+    "name": "BIRENDRA KUMAR KUSHWAHA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1164",
+    "name": "AVINASH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1167",
+    "name": "GANGA RAM TANDAN",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1169",
+    "name": "ARUN KUMAR SAHU",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1181",
+    "name": "OM PRAKSH SINGH",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1182",
+    "name": "SHAILESH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1192",
+    "name": "SHIV PRASAD CHANDRA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1194",
+    "name": "PRADEEP KUMAR PATEL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1199",
+    "name": "CHAMAN KHURANA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1201",
+    "name": "SUNIL KUMAR DEWANGAN",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1205",
+    "name": "MANISH KU. SAINIK",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1206",
+    "name": "PRAVIN KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1207",
+    "name": "DEEPAK KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1208",
+    "name": "PRAMOD KUMAR SAHU",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1209",
+    "name": "PUSPENDRA KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1210",
+    "name": "RESHAM LAL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1211",
+    "name": "VIKAS JAIDEEP RATRE",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1212",
+    "name": "DURGESH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1213",
+    "name": "VIVEK SAMARPAN TOPPO",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1214",
+    "name": "SAKET SINGH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1215",
+    "name": "NAVIN KUMAR HANSDA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1216",
+    "name": "VINAY ORAON",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1218",
+    "name": "SHUBHAM KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1221",
+    "name": "TIKENDRA KUMAR SAHU",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1224",
+    "name": "RAJDEEP KUMAR JAISAWAL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1227",
+    "name": "RISHIKESH KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1228",
+    "name": "ABHIJEET ANAND",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1229",
+    "name": "VIKASH KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1234",
+    "name": "GAURAV KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1236",
+    "name": "ANUJ KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1239",
+    "name": "RAJAT KUMAR SINGH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1246",
+    "name": "PRINCE KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1247",
+    "name": "GYANENDRA KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1248",
+    "name": "NIRAJ KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1249",
+    "name": "CHANDRA BHUSHAN YADAV",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1252",
+    "name": "ASHISH KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1260",
+    "name": "ROHIT KR SAHU",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1261",
+    "name": "SANJAY DANSENA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1262",
+    "name": "D. K. RAJBHAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1263",
+    "name": "RAJ KISHOR SINGH",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1266",
+    "name": "UPENDRA KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1267",
+    "name": "AVISHEK RANJAN",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1275",
+    "name": "GAURAV KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1277",
+    "name": "BIRENDRA BIRUA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1278",
+    "name": "UJJAL MONDAL",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1279",
+    "name": "BASUDEO RAM MUNDA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1280",
+    "name": "MUKESH PASWAN",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1283",
+    "name": "SUNIL KUMAR AHIRWAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1284",
+    "name": "RAJEEV RANJAN KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1285",
+    "name": "SUBHASH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1287",
+    "name": "JUGNU KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1291",
+    "name": "SANTOSH KUMAR PRAJAPATI",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1292",
+    "name": "PRAKASH PATEL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1293",
+    "name": "CHAITANYA KUMAR SAHU",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1298",
+    "name": "SET RAM",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1299",
+    "name": "VIKASH KUMAR I",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1300",
+    "name": "GAUTAM KUMAR SUMAN",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1301",
+    "name": "NIRBHAY KUMAR KUSHWAHA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1303",
+    "name": "CHANDAN KUMAR 1",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1308",
+    "name": "ABHISHEK KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1309",
+    "name": "RAKESH PASWAN",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1310",
+    "name": "VINEET SINGH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1311",
+    "name": "UMESH GHOSH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1312",
+    "name": "OMESH KUMAR SAHU",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1313",
+    "name": "NISHANT KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1316",
+    "name": "MANISH KU PANDEY",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1318",
+    "name": "RATENDRA KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1319",
+    "name": "PAPPU KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1320",
+    "name": "SUMANA MONDAL",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1321",
+    "name": "ABINASH SHAH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1322",
+    "name": "JAY PRAKASH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1323",
+    "name": "RAVISH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1324",
+    "name": "S K TRIPATHI",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1325",
+    "name": "PANMESHWAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1329",
+    "name": "LOKESH KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1330",
+    "name": "CHETAN KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1331",
+    "name": "ASHISH KUMAR II",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1332",
+    "name": "CHANDAN",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1333",
+    "name": "MANEESH KU RAIGAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1334",
+    "name": "AJAY KUMAR BAIRWA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1335",
+    "name": "SHUBHAM SONI",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1340",
+    "name": "RAJNEE KANT",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1341",
+    "name": "SHAMBHU BAURI",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1347",
+    "name": "MITHLESH SINGH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1348",
+    "name": "ABHISHEK KUMAR 1",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1352",
+    "name": "DHANRAJ AHIRWAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1355",
+    "name": "PRADEEP GHUNAWAT",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1356",
+    "name": "SHAILENDRA SINGH SOGARWAL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1357",
+    "name": "ABHISHEK KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1358",
+    "name": "SUNIL KUMAR PATEL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1360",
+    "name": "A.M.KHAN",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1361",
+    "name": "ARVIND MISHRA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1362",
+    "name": "PRASHANT KUMAR KUSHWAHA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1363",
+    "name": "VINOD KUMAR SAROJ",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1364",
+    "name": "SAROJ KUMAR SINGH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1366",
+    "name": "DEEPAK KUMAR SAH",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1368",
+    "name": "I.K. GAVEL",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1369",
+    "name": "G R PATEL",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1370",
+    "name": "P L DEWANGAN",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1371",
+    "name": "ROUSHAN KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1373",
+    "name": "SHRI KANT SAHU",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1374",
+    "name": "PRASHANT SINGH",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1375",
+    "name": "GAUTAM KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1377",
+    "name": "PRAVIN KUMAR MAURYA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1379",
+    "name": "ABHISHEK KUMAR SINGH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1380",
+    "name": "PLABAN BAIDYA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1382",
+    "name": "MOKRO KISKU",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1383",
+    "name": "RITESH KARMAKAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1384",
+    "name": "ANIL PATEL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1385",
+    "name": "MANISH KUMAR DIWVEDI",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1392",
+    "name": "ABHASH SINGH",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1394",
+    "name": "GOVINDA NONIA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1395",
+    "name": "SUBHASH TANA BHAGAT",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1397",
+    "name": "SURESH SONWANI",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1398",
+    "name": "PRADEEP KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1399",
+    "name": "ARVIND KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1400",
+    "name": "IRSHAD AHEMAD",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1401",
+    "name": "SANJEEV KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1402",
+    "name": "SHIV KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1403",
+    "name": "RAHUL SINGH",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1404",
+    "name": "NILESH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1405",
+    "name": "ABHISHEK KUMAR PANDEY II",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1409",
+    "name": "RAJA KURREY",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1410",
+    "name": "MOHAN KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1411",
+    "name": "SUNNY LAKRA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1412",
+    "name": "MUKESH KU MEENA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1413",
+    "name": "ASHOK KU LOHRA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1414",
+    "name": "SUBAS CHANDRA PURAN",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1415",
+    "name": "RAMHANS MEENA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1416",
+    "name": "PRAKASH LINDA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1417",
+    "name": "PRAVEEN KU. BOURI",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1418",
+    "name": "SHRAVAN KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1419",
+    "name": "VIKASH MINZ",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1420",
+    "name": "VIJAY ORAON",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1421",
+    "name": "ROOPENDRA KUMAR RAJ",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1422",
+    "name": "GUNJAN KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1423",
+    "name": "SANDEEP KUMAR",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1424",
+    "name": "RADHA RAMAN PD",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1425",
+    "name": "PRAVEEN PRIYADARSHI",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1426",
+    "name": "AJAY KU YADAV",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1427",
+    "name": "D.K.SHARMA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1428",
+    "name": "PREM SHANKAR KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1429",
+    "name": "ANJANI KUMAR I",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1430",
+    "name": "I.B.MAURYA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1431",
+    "name": "ADITYA RAJ",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1432",
+    "name": "AJAY KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1433",
+    "name": "SUMAN KU SHARMA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1434",
+    "name": "RITESH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1435",
+    "name": "PAWAN NARAYAN SAHU",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1436",
+    "name": "GYAN CHAND US",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1437",
+    "name": "SUNIL KUMAR SAINI",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1438",
+    "name": "SUBHASH DWIVEDI",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1439",
+    "name": "CHANDRA BOSE KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1440",
+    "name": "AYODHYA PRASAD",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1441",
+    "name": "ABINASH KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1442",
+    "name": "SATYA PRAKASH GUPTA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1443",
+    "name": "HEMANT KUMAR CHANDRA",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1444",
+    "name": "AJIT KUMAR SAHU",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1445",
+    "name": "DILEEP KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1446",
+    "name": "RAHUL KESHARI",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1447",
+    "name": "PARIKALP GUPTA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1448",
+    "name": "SUMIT KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1449",
+    "name": "PURUSOTAM MEHTA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1450",
+    "name": "AJAY KUMAR PATEL",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1451",
+    "name": "SATYAM",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1452",
+    "name": "MOHAMMAD AMEEN",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1455",
+    "name": "CHANDAN KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1456",
+    "name": "MANOJ KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1457",
+    "name": "OM PRAKASH NIRALA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1458",
+    "name": "SANJEEV KU BHARTI",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1459",
+    "name": "JAIMONEY KU AAKELA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1460",
+    "name": "VIVEK KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1461",
+    "name": "SUMAN KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1463",
+    "name": "SANTOSH KU PODDAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1464",
+    "name": "SAURABH KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1465",
+    "name": "CHANDRA KUMAR CHOUBE",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1466",
+    "name": "HEMANT BHARDWAJ",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1467",
+    "name": "ARVIND KUMAR GAVEL",
+    "designation": "SALP - Sr. Assistant Loco Pilot (SALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1468",
+    "name": "AMAR KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1469",
+    "name": "SUNIL SINGH CHOUHAN",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1470",
+    "name": "MANEESH SHRIVASTAVA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1472",
+    "name": "KAMAL KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1473",
+    "name": "SUJEET KUMAR GUPTA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1474",
+    "name": "VIVEK KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1475",
+    "name": "BAIDYANATH KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1476",
+    "name": "PRINCE KUMAR II",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1477",
+    "name": "HIMANSHU RAJ",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1478",
+    "name": "PRAKHYAT MAITHANI",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1479",
+    "name": "ADITYA KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1480",
+    "name": "VINAY KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1481",
+    "name": "SAIKAT DAS",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1482",
+    "name": "DEBKANTA MAJUMDER",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1483",
+    "name": "HARSH KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1484",
+    "name": "PIYUSH RAJA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1485",
+    "name": "SHUBHAM VISHAL",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1486",
+    "name": "MITHILESH KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1487",
+    "name": "RAJ KUMAR NAYAK",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1488",
+    "name": "RAUSHAN KUMAR II",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1489",
+    "name": "SUMIT KUMAR GANGWAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1490",
+    "name": "GAUTAM KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1491",
+    "name": "RITIK RAUSHAN KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1492",
+    "name": "DAYANAND GAUTAM",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1493",
+    "name": "NAUSHAD ALAM",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1494",
+    "name": "ROHIT KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1495",
+    "name": "SATYENDRA KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1496",
+    "name": "NEERAJ KUSHWAHA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1497",
+    "name": "KAMLESH KUMAR SAH",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1498",
+    "name": "DINESH DAS MAHANT",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1499",
+    "name": "SIKKU KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1500",
+    "name": "SONU KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1501",
+    "name": "SANJEEV SHARMA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1502",
+    "name": "BANKIM CHANDRA MAHTO",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1503",
+    "name": "GUDDA KUMAR",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1504",
+    "name": "AJAY KUMAR KUSHWAHA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1505",
+    "name": "ROHIT RAJ",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1506",
+    "name": "KARAN RAJ",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1507",
+    "name": "SUNNY KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1508",
+    "name": "NIRANJAN KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1509",
+    "name": "ADITYA RAJ KUMAR",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1510",
+    "name": "ANIVESH SINGH",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1511",
+    "name": "MUSTAK HUSSAIN",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1512",
+    "name": "ARPIT KUMAR SRIVASTAVA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1513",
+    "name": "NEELESH MOURYA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1514",
+    "name": "DEEPAK KUMAR GUPTA",
+    "designation": "ALP - Assistant Loco Pilot (ALP)",
+    "category": "ALP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1515",
+    "name": "ARMAN ALI",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS1516",
+    "name": "PRADEEP KUSHWAHA",
+    "designation": "LPG - Loco Pilot (Goods)",
+    "category": "LP",
+    "cadre": "Running (Loco)"
+  },
+  {
+    "crewId": "KHS7010",
+    "name": "PREM SINGH MAITRY",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7011",
+    "name": "LAXMI PRASAD LAHARE",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7029",
+    "name": "SANJAY KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7031",
+    "name": "BHOGENDRA PRASAD BHARTI",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7032",
+    "name": "SHARVAN KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7039",
+    "name": "RAMESH KUMAR",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7045",
+    "name": "DEVIRAM KASHYAP",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7046",
+    "name": "DURGESH SINGH KANWAR",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7047",
+    "name": "SUNIL KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7048",
+    "name": "SANJAY VISHWAKARMA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7049",
+    "name": "LOKESH KR CHANDRA",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7057",
+    "name": "VIKAS DEWANGAN",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7062",
+    "name": "SUNIL KUMAR PRADHAN",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7064",
+    "name": "RITESH KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7066",
+    "name": "S.K.MANIKPURI",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7068",
+    "name": "LOKESH KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7070",
+    "name": "PREETAM KUMAR PATEL",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7071",
+    "name": "BISWADIP MONDAL",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7072",
+    "name": "PRAVEEN LAHARE",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7073",
+    "name": "DEEPAK KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7074",
+    "name": "RAJEEV RANJAN KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7076",
+    "name": "CHAIN KUMAR YADAV",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7077",
+    "name": "PURUSHOTTAM KUMAR KURREY",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7080",
+    "name": "SHUBHAM KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7081",
+    "name": "DEVCHARAN",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7083",
+    "name": "RAJU KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7084",
+    "name": "YASH KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7085",
+    "name": "SURAJ DEW SAW",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7086",
+    "name": "VINOD KUMAR BANJARA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7087",
+    "name": "PANKAJ KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7089",
+    "name": "SANJIB DAS",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7090",
+    "name": "MUKESH",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7091",
+    "name": "TRIPURARI SINGH",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7092",
+    "name": "ASLAM BEG",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7093",
+    "name": "BHASKAR CHANDRA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7095",
+    "name": "SANTOSH KUMAR YADAV",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7096",
+    "name": "RAHUL PRASAD SONAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7097",
+    "name": "LOKESH KUMAR YADAV",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7098",
+    "name": "RAJAN KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7099",
+    "name": "ANAND KU CHOUHAN",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7100",
+    "name": "HEM LAL RATHIA",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7101",
+    "name": "DHARMENDRA KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7102",
+    "name": "KAMAL SHREEVASTAV",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7103",
+    "name": "SHRAWAN CHANDRA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7105",
+    "name": "SAURABH DUBEY",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7109",
+    "name": "DIPANKAR SAMANTA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7110",
+    "name": "HANSRAJ RAVIDAS",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7111",
+    "name": "KHAGESH KUMAR CHANDRA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7113",
+    "name": "ANUJ KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7115",
+    "name": "VINAY CHOUDHARY",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7116",
+    "name": "ANUJ KUMAR II",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7118",
+    "name": "PUSHPA PATEL",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7120",
+    "name": "PUSHPENDRA SINGH PATEL",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7121",
+    "name": "UDDHAW KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7122",
+    "name": "KAMAL SHANKAR PATEL",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7125",
+    "name": "RAJESH KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7137",
+    "name": "RANJAN KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7138",
+    "name": "CHANDAN KUMAR 1",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7145",
+    "name": "OMPRAKASH I",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7147",
+    "name": "AJAY KUMAR SINGH",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7149",
+    "name": "NAND KISHOR SINGH",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7158",
+    "name": "BALRAM",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7160",
+    "name": "ASHOK KUMAR DHURV",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7163",
+    "name": "ANAND PRAKASH SORENG",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7164",
+    "name": "PALLAVENUGOPAL RAO",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7165",
+    "name": "RAVI KANT KAMBLE",
+    "designation": "SGD - Sr. Goods Guard / Sr. Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7166",
+    "name": "ABHIJEET DUTTA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7167",
+    "name": "CHANDAN KUMAR 3",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7170",
+    "name": "M. GOPI",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7171",
+    "name": "K.VIJAY",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7172",
+    "name": "JAYENDRA PRAKASH",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7173",
+    "name": "PRINCE JOSHI",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7174",
+    "name": "RAJU SONI",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7175",
+    "name": "LAV KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7176",
+    "name": "PURUSHOTTAM KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7177",
+    "name": "KHAIR SINGH RATHIA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7178",
+    "name": "RAM NARAYAN",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7179",
+    "name": "PIKESH MISHRA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7180",
+    "name": "SURENDRA PASWAN",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7181",
+    "name": "ASHWANI KAUSHIK",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7182",
+    "name": "T.GURU NADAM",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7183",
+    "name": "JAY PRAKASH PANDIT",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7184",
+    "name": "B.SRINIVAS RAO",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7185",
+    "name": "RAKESH KUMAR BERIYA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7186",
+    "name": "E.SURESH KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7187",
+    "name": "DAMODARA NAG",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7188",
+    "name": "YOGESH KUMAR CHANDRA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7189",
+    "name": "KRISHNA KUMAR NIRMALKAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7190",
+    "name": "MAHESH RAM NAYAK",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7191",
+    "name": "SANTOSH KUMAR TANTI",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7192",
+    "name": "KEWAL LAL",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7193",
+    "name": "VIKASH KUMAR BAISH",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7194",
+    "name": "SURAJ KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7195",
+    "name": "SURESH KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7196",
+    "name": "DHARMENDRA KR SINGH",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7197",
+    "name": "UMASHANKAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7198",
+    "name": "SANI KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7199",
+    "name": "GUPTESHWAR PRASAD PAIKRA",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7200",
+    "name": "DHANANJAY KUMAR CHANDRAKAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7201",
+    "name": "SHIVRAJ SINGH",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  },
+  {
+    "crewId": "KHS7202",
+    "name": "KULDEEP KUMAR",
+    "designation": "GD - Goods Guard / Train Manager",
+    "category": "GUARD",
+    "cadre": "Traffic (Guard)"
+  }
+]
